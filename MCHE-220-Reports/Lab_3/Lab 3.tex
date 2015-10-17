@@ -66,16 +66,16 @@
 %-------------------------------------------------------------
 
 \section*{\fontsize{12}{12}\selectfont INTRODUCTION}
-This memorandum is being sent to Dr. Emblom to convey the analysis of a beam bending test which took place on campus at University of Louisiana at Lafayette. The test was performed on two types of beams: a cantilever beam and a simply supported beam. The cantilever beam was a square, hollow aluminum beam. There were two simply supported beams; one was aluminum and the other steel. The beams were loaded with weights and displacements were measured at spaced-intervals along the beams. The results of the test will be shown, as well as plots of various data recorded and calculated from the experiment. These plots will be used to analyze the meaning of the data.
+This memorandum is being sent to Dr. Emblom to convey the analysis of a beam bending test which took place on campus at University of Louisiana at Lafayette. The test was performed on two types of beams: a cantilever beam and a simply-supported beam. Each beam was loaded with a concentrated load. The cantilever beam was a square, hollow aluminum beam. There were two simply-supported beams; one was aluminum and the other steel. The type of steel used was AISI 1006 HRS, and the type of aluminum used was 2014. The beams were loaded with weights and displacements were measured at spaced-intervals along the beams. The results of the test will be shown, as well as plots of various data recorded and calculated from the experiment. These plots will be used to analyze the meaning of the data.
 \bigskip
 
 
 \section*{\fontsize{12}{12}\selectfont BACKGROUND}
 The data collected from the test include deflections recorded at various steps of the loading, as well as the distance from the supported end of the beam. The dimensions necessary to calculate the cross-sectional areas are also recorded. The mass of each weight and the elastic modulus for each beam are given as well.
-Exaggerated images of a deflected cantilever beam and a simply supported beam can be seen in Figure 1 and Figure 2, respectively. These configurations, where the applied weight is at a position which yields a max deflection, are identical to the configurations used in this experiment.
+Exaggerated images of a deflected cantilever beam and a simply-supported beam can be seen in Figure 1 and Figure 2, respectively. These configurations, where the applied weight is at a position which yields a max deflection, are identical to the configurations used in this experiment.
 \bigskip
 
-In beam bending analysis, it is necessary to obtain the second moment of inertia of the cross sectional area about the same axis which the bending moment is occurring. All beams in this experiment are rectangular, so the second moment of inertia of each beam can be determined by (1). The force on the beam can be calculated simply by multiplying the mass of the weight by the acceleration of gravity, and can be used to calculate the bending moment at any point on the beam. The moment for a cantilever beam can be calculated by (2), and the moment for a simply supported beam (between A and B) can be calculated by (3).
+In beam bending analysis, it is necessary to obtain the second moment of inertia of the cross sectional area about the same axis which the bending moment is occurring. All beams in this experiment are rectangular, so the second moment of inertia of each beam can be determined by (1). The force on the beam can be calculated simply by multiplying the mass of the weight by the gravitational acceleration, and can be used to calculate the bending moment at any point on the beam. The moment at any point \emph{x} for a cantilever beam can be calculated by (2), and the moment for a simply-supported beam between points A and B, shown in Figure 2, can be calculated by (3).
 \bigskip
 
 \begin{equation}
@@ -93,7 +93,7 @@ M_{AB} = \frac{Fx}{2}
 \end{equation}
 \bigskip
 
-The second moment of inertia and bending moment can be used to calculate the bending stress at any point on a cross-sectional area of the beam, as shown in (4), where \emph{c} is the distance of said point from the bending-axis.Finally, the deflection at any point \emph{x} along the beam can be calculated by (5) for a cantilever beam, and (6) for a simply supported beam.
+The second moment of inertia and bending moment can be used to calculate the bending stress at any point on a cross-sectional area of the beam, as shown in (4), where \emph{c} is the distance of said point from the bending-axis. According to [1], the bending stress at \emph{c} = 0 is zero. This can be seen easily by observing the equation, but in realistic observation it is because the material is bending \emph{around} an axis, so the particles directly on the axis are not being displaced. Finally, the deflection at any point \emph{x} along the beam can be calculated by (5) for a cantilever beam, and by (6) for a simply-supported beam.
 \bigskip
 
 \begin{equation}
@@ -112,19 +112,43 @@ y_{s} = \frac{Fx}{48EI}(4x^2-3l^2)
 \bigskip
 
 
+% Figure 1
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=3.8in, height=3.5in]{cantilever_beam.JPG}
+    \caption{Cantilever Beam}
+\end{figure}
+
+\newpage
+
+% Figure 2
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=4in, height=4in]{simply_supported_beam.JPG}
+    \caption{Simply-Supported Beam}
+\end{figure}
+
+\bigskip
+
 
 \section*{\fontsize{12}{12}\selectfont PROCEDURE}
-The tensile test was conducted in the metal forming lab on UL Lafayette campus. The only piece of equipment used, besides the beams and weights, was a magnetic dial indicator, capable of returning readings in thousandths of an inch. The configuration shown Figure 1 resembles the setup for the cantilever beam. The weight hanging from the cantilever beam was 1.09 kg, and measurements for deflections were recorded every half inch from the support, for a total of 15.5 inches. The configuration in Figure 2 resembles the setup for both of the simply supported beams. The weight hanging from the simply supported beams was 0.545 kg, and the deflections were also recorded every half inch starting at the support, for a total of 8 inches.
+The bending test was conducted in the metal forming lab on UL Lafayette campus. The only piece of equipment used, besides the beams and weights, was a magnetic dial indicator capable of returning readings in thousandths of an inch. The configuration shown Figure 1 resembles the setup for the cantilever beam. The weight hanging from the cantilever beam was 1.09 kg, and measurements for deflections were recorded every half inch from the support, for a total of 15.5 inches. The configuration in Figure 2 resembles the setup for both of the simply-supported beams. The weight hanging from the simply-supported beams was 0.545 kg, and the deflections were also recorded every half inch starting at the support, for a total of 8 inches.
 \bigskip
 
 Along with measured deflections, theoretical deflections were also calculated using the earlier mentioned equations. The measured and calculated deflections were both plotted as a function of distance from the beam support on the same plot for each beam. The bending stress for each beam was also calculated and plotted as a function of distance from the support. 
 \bigskip
 
 
-\section*{\fontsize{12}{12}\selectfont RESLTS AND DISCUSSION}
-The data recorded and calculated from the experiments is shown in Table 1, Table 2, and Table 3. A plot of the cantilever beam deflections is shown in Figure 3. It can be seen that the experimental data closely matches the calculated data. The data also shows that the beam tends to deflect more as the distance from the beam support is increased.
+\bigskip
+\bigskip	
 
 \newpage
+
+
+\section*{\fontsize{12}{12}\selectfont RESLTS AND DISCUSSION}
+The data recorded and calculated from the cantilever, aluminum simply-supported, and the steel simply-supported experiments are shown in Tables 1, 2, and 3 respectively. A plot of the calculated and experimental cantilever beam deflections are shown in Figure 3. It can be seen that the experimental data closely matches the calculated data. The data also shows that the beam tends to deflect more as the distance from the beam support is increased.
+\bigskip
+\bigskip
 
 % table1
 \begin{center}
@@ -180,7 +204,7 @@ Table 1
 \begin{center}
 Table 2
 \\
-\emph{Simply Supported Beam (Aluminum) Data}
+\emph{Simply-Supported Beam (Aluminum) Data}
 \\
 \bigskip
 \begin{tabular}{ccccc}
@@ -209,12 +233,13 @@ Table 2
 \end{center}
 
 \bigskip
+\bigskip
 
 % table3
 \begin{center}
 Table 3 
 \\
-\emph{Simply Supported Beam (Steel) Data}
+\emph{Simply-Supported Beam (Steel) Data}
 \\
 \bigskip
 \begin{tabular}{ccccc}
@@ -247,89 +272,93 @@ Table 3
 % Figure 3
 \begin{figure}[h!]  
   \centering
-    \includegraphics[width=\linewidth,height=4.2in]{cantilever_deflection.JPG}
+    \includegraphics[width=\linewidth,height=5in]{cantilever_deflection.JPG}
     \caption{Cantilever Beam Displacement}
 \end{figure}
 \bigskip
-
-The engineering stress and strain are plotted in Figure 4 for both specimens. The true stress and strain are plotted for each specimen in Figure 5. Specimen 1's engineering ultimate stress occurs around (0.26, 500MPa), while its true ultimate stress occurs around (0.1, 500MPA). Specimen 2's engineering ultimate stress occurs around (0.2, 95 MPa), while its true ultimate stress occurs around (0.18, 110 MPa). Comparing the plots from Figure 4 and Figure 5, it is seen that the ends of the data curves tend to have a sudden rise in the true stress and strain plot, whereas the engineering stress and strain do not show this behavior. This is because a true stress-strain diagram shows that a material really experiences an increasing stress as it is tensed, because the area of necking rapidly decreases in size, causing the stress to be higher [2]. Engineering stress-strain diagrams, however, tend to show a drop in stress near failure, because in reference to the original area, the stress would be decreasing when the material begins to yield.
 \bigskip
 
-Engineering stress does not account for the change in area of the cylinder as it stretches. Since only the original area is considered in the engineering stress, the result is a lower-than-realistic stress calculation for tension, because in reality the area decreases as the specimen stretches. For a material under compression, the stress would be overestimated rather than underestimated since the area would be increasing in reality. True stress considers the change in area as the cylinder compresses [3], which provides more accurate results. It should be noted that because of this difference, engineering stress and strain should only be used for analysis in cases where the deformation of the object in question is negligible. This entails any case where the forces on a member are not enough to bring the material to its yield point. Otherwise, True stress and strain should be used for analysis.
+A plot of the aluminum simply-supported beam calculated and experimental deflections can be seen in Figure 4, and the same plot for the steel simply-supported beam is shown in Figure 5. As seen in both plots, the experimental data closely matches the calculated data. It can also be seen from both plots that for a simply-supported beam, the deflections closer to the middle of the beam are where max deflections occur. 
+\bigskip
+
+It should be noted, that unlike a cantilever beam, max deflections for a simply-supported beam occur when loaded at the middle of the beam rather than at the end. This is because the beam is supported at both ends, which would cancel any deflections occurring at the very ends of the beam. It should also be noted when comparing the two plots, that the steel deflects less than the aluminum beam, since steel is a stronger material and therefore has a higher modulus of elasticity. 
+\bigskip
 
 \newpage
 
-% % Figure 4
-% \begin{figure}[h!]  
-%   \centering
-%     \includegraphics[width=5.5in,height=3.8in]{engr_stress_vs_engr_strain.JPG}
-%     \caption{Engineering Stress vs Engineering Strain}
-% \end{figure}
-
-% % Figure 5
-% \begin{figure}[h!]  
-%   \centering
-%     \includegraphics[width=5.5in,height=3.8in]{true_stress_vs_true_strain.JPG}
-%     \caption{True Stress vs True Strain}
-% \end{figure}
-
-\newpage
-
-The true stress and strain are also plotted on a log-log scale and fitted with trend lines, shown in Figure 6. The data points near failure are excluded in order to show the more predictable range of tension before the material hits its yield point. At the yield point, the material starts to stretch and elongate more easily, requiring significantly less force to increase the strain [4]. Also, the plot does not show the behavior of the material near a stress or strain value of zero since zero has no logarithm (i.e. zero does not exist in the logarithmic scale). 
-\bigskip
-
-The trend-line used to fit each specimen is a power law curve. Notice that the power law trend-lines look linear in a log-log scale. This is because the slope for the power law curve is expressed as an equation consisting solely of logarithmic functions, as seen in (5). Since the slope is logarithmic in nature, it appears linear on a log-log scale. 
-\bigskip
-
-\begin{equation}
-B = \frac{ln\sigma_{1}-ln\sigma_{2}}{ln\phi_{1}-ln\phi_{2}}
-\end{equation}
-
-\bigskip
-\bigskip
-\bigskip
-
-% % Figure 6
-% \begin{figure}[h!]  
-%   \centering
-%     \includegraphics[width=\linewidth]{true_stress_vs_true_strain_log.JPG}
-%     \caption{True Stress vs True Strain (Log-Scale)}
-% \end{figure}
-
-\newpage
-
-A more extensive and accurate tensile test performed on a sample of A6111-T4 aluminum can be seen in Figure 7 and Figure 8. The engineering stress-strain diagram is shown in Figure 7, while the true stress-strain diagram is shown in Figure 8. The curves are smoother and more accurate due to collecting an extensive amount of data points. Both diagrams have points labeled, which include the proportional limit, yield stress, and ultimate stress. These diagrams are a much better representation of material behavior thanks to the extensive measures taken during the tensile test.
+% Figure 4
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth,height=3.8in]{simp_support_a_deflection.JPG}
+    \caption{Simply-Supported Beam Deflections (Aluminum)}
+\end{figure}
 
 \bigskip
 
-% % Figure 7
-% \begin{figure}[h!]  
-%   \centering
-%     	\includegraphics[width=5in,height=3in]{emblom_engr.JPG}
-%     	\caption{Engineering Stress vs Engineering Strain (A6111-T4 aluminum)}
-% \end{figure}
-
-% \bigskip
-% \bigskip
-
-% % Figure 8
-%  \begin{figure}[h!]
-%    \centering
-%   		 \includegraphics[width=5in,height=3in]{emblom_true.JPG}
-%          \caption{True Stress vs True Strain (A6111-T4 aluminum)}
-% \end{figure}
+% Figure 5
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth,height=3.8in]{simp_support_s_deflection.JPG}
+    \caption{Simply-Supported Beam Deflections (Steel)}
+\end{figure}
 
 
 \newpage
 
-The true stress and strain analysis give more accurate values than the engineering stress and strain. This is because the instantaneous dimensions are considered in true stress and strain calculations, rather than just the original dimensions as in engineering stress calculations. Since the two types of stress and strain behave similarly up to the yield point where deformation begins to occur, it is recommended that engineering stress and strain only be used for analysis regarding members that are not loaded enough to cause any deformation. If deformation is to occur in the range of loading considered for a member, true stress and strain should be used. 
+Notice that the deflection plots for all three beams tend to follow a quadratic trend. This is because the equations for deflections of both types of beams are quadratic functions of distance from the beam support, as seen in (5) and (6).
+\bigskip	
+
+The max bending stress at each measured interval is also plotted for each beam. The plots for bending stress versus distance from the beam support can be seen in Figures 6, 7, and 8. It should be noted that the bending stress decreases further from the support for a cantilever beam, while in the case of a simply-supported beam, it rises. This is because for a cantilever beam, the bending moment is higher close to the support, while the bending moment in a simply-supported beam is higher close to the load.
 \bigskip
+
+Also, notice that all three plots follow a linear behavior. This is because the bending moments for both types of beams are linear functions of distance \emph{x}, as seen before in (2) and (3). These equations are linear because the loadings in this experiment are concentrated loads. According to [2], if the loading on the beam were a distributed load, the equation would be a \emph{quadratic} function of distance from the beam support rather than linear.
+\bigskip
+\bigskip
+\bigskip
+
+
+% Figure 6
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth, height=4.5in]{cantilever_stress_vs_distance.JPG}
+    \caption{Cantilever Beam Bending Stress} 
+\end{figure}
+
+
+\newpage
+
+
+% Figure 7
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth, height=3.8in]{simp_support_a_stress_vs_distance.JPG}
+    \caption{Simply-Supported Beam Bending Stress (Aluminum)} 
+\end{figure}
+
+\bigskip
+
+% Figure 8
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth, height=3.8in]{simp_support_s_stress_vs_distance.JPG}
+    \caption{Simply-Supported Beam Bending Stress (Steel)} 
+\end{figure}
+
+
+\newpage
+
 
 \section*{\fontsize{12}{12}\selectfont CONCLUSION}
-The data from this tensile test, performed on UL campus, has been analyzed and plotted. The originally recorded data was also used to calculate the engineering stress and strain, as well as the true stress and strain. The results showed that true stress and strain tend to follow a power law trend when plotted against each other on a log-log scale, which was shown in Figure 8. A more extensive test was also performed on A6111-T4 aluminum which resulted in very accurate engineering and true stress-strain diagrams. These diagrams further demonstrate the relation between stress and strain, as well as the difference between engineering stress and strain, and true stress and strain.
+The data from this beam bending test, performed on UL campus, has been analyzed and plotted. The originally recorded data was also used to calculate the deflections, as well as the true bending stress, for each beam. The results calculated from the data closely matched the data measured in the experiment. 
 \bigskip
 
-The data also shows that the true stress was higher than the engineering stress, which is due to the fact that true stress involves the instantaneous area of a material during loading, while engineering stress only uses the original area. This difference also results in the true strain being lower than the engineering strain. Thus, it has been concluded that engineering stress and strain should only be used for analysis when the forces present on an object do not bring the material past its yield point where deformation begins to occur. If the forces on the object cross into the range where deformation occurs, true stress and strain should be used for analysis to achieve higher accuracy.
+The data also shows that cantilever beams deflect most towards the end of the beam when loaded as shown in Figure 1, while simply-supported beams deflect most towards the middle of the beam when loaded as shown in Figure 2. It was seen that the deflections of both types of beams followed a quadratic trend, just as (5) and (6) would suggest.
+\bigskip
+
+It was also shown that the bending stress for cantilever beams is highest near the beam support, while the bending stress for simply-supported beams is highest near the loading. This difference is caused by the fact that the beam is supported on both ends in a simply-supported beam, which restricts the movement of the beam at both ends. This causes the bending stress to reach a maximum at the point furthest from both supports in the case of this experiment, which is the middle of the beam. Also, the bending stress for both types of beams follows a linear trend, just as (2) and (3) would suggest.
+\bigskip
+
+It has been concluded that the behavior of the beams in the experiment closely match the theoretical behavior of the materials. This confirms that the method of analysis by equations (1)-(6) is accurate enough for use in practice as long as the beams are only exposed to concentrated loads. If the beams in an application are exposed to more sophisticated loads, such as distributed loads, then these equations will need to be re-derived for the application.
 \bigskip
 
 
@@ -337,21 +366,13 @@ The data also shows that the true stress was higher than the engineering stress,
 
 \begin{thebibliography}{2}
 
-\bibitem{McGinty}
-Mcginty, B., n.d.,
-"True Strain," \emph{Continuum Mechanics}, from
-http://www.continuummechanics.org/
-
 \bibitem{}
 Hibbeler, R.C., 2014, \emph{Mechanics of Materials}, Prentice Hall, Upper Saddle River, NJ, Chap. 3.
 
 \bibitem{}
-“True Stress versus Engineering Stress,” \emph{Engineering Quality Solutions}, n.d., from
-http://www.eqsgroup.com/all-about-steel/difference-between-true-stress-and-engineering-stress.asp
+“Shear Forces and Bending Moments,” \emph{Open Course Ware (National Tsing Hua University)}, n.d., from
+\\http://ocw.nthu.edu.tw/ocw/upload/8/253/Chapter\_4-98.pdf
 
-\bibitem{}
-"Tensile Properties," \emph{NDT Resource Center}, n.d., from
-\\https://www.nde$-$ed.org/EducationResources/CommunityCollege/Materials/Mechanical/Tensile.htm
 
 \end{thebibliography}
 
