@@ -135,7 +135,7 @@ y_{s} = \frac{Fx}{48EI}(4x^2-3l^2)
 The bending test was conducted in the metal forming lab on UL Lafayette campus. The only piece of equipment used, besides the beams and weights, was a magnetic dial indicator capable of returning readings in thousandths of an inch. The configuration shown in Figure 1 resembles the setup for the cantilever beam. The weight hanging from the cantilever beam was 1.09 kg, and measurements for deflections were recorded every half inch from the support, for a total of 15.5 inches. The configuration in Figure 2 resembles the setup for both of the simply-supported beams. The weight hanging from the simply-supported beams was 0.545 kg, and the deflections were also recorded every half inch starting at the support, for a total of 8 inches.
 \bigskip
 
-Along with measured deflections, theoretical deflections were also calculated using the earlier mentioned equations. The measured and calculated deflections were both plotted as a function of distance from the beam support on the same plot for each beam. The bending stress for each beam was also calculated and plotted as a function of distance from the support. 
+Along with measured deflections, theoretical deflections were also calculated using (5) and (6). The measured and calculated deflections were both plotted as a function of distance from the beam support on the same plot for each beam. The bending stress for each beam was also calculated and plotted as a function of distance from the support. 
 \bigskip
 
 
@@ -347,17 +347,49 @@ Also, notice that all three plots follow a linear behavior. This is because the 
 
 \newpage
 
-The design factor for any product is given by (7). For each beam, the design factor was calculated at the point of max bending stress. The yield stress for AISI 1006 HRS steel is 170 MPa, and the yield stress for 2014 aluminum is 76 MPa. The design factors for the cantilever, aluminum simply-supported, and steel simply-supported beams are 6.62, 9.17, and 18.52 respectively. Generally, a high design factor will yield a durable, safe design. A factor too high will result in an over-engineered product which will waste cost and material in manufacturing, and possibly even a product which is too cumbersome for the product.
+The design factor for any product is given by (7). For each beam, the design factor was calculated for each calculated bending stress, excluding zero which results in a design factor of infinity. The yield stress for AISI 1006 HRS steel is 170 MPa, and the yield stress for 2014 aluminum is 76 MPa. The design factors for the cantilever, aluminum simply-supported, and steel simply-supported beams are shown in Figures 9, 10, and 11 respectively. Generally, a high design factor will yield a durable, safe design. A factor too high will result in an over-engineered product which will waste cost and material in manufacturing, and possibly even a product which is too cumbersome for the product.
 \bigskip
+
 
 % Equation 7
 \begin{equation}
 n=\frac{\sigma_{yield}}{\sigma_{calculated}}
 \end{equation}
 \bigskip
+\bigskip
+
+
+
+% Figure 9
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth]{cantilever_df.JPG}
+    \caption{Cantilever Beam Design Factor} 
+\end{figure}
+
+\newpage
+
+% Figure 10
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth, height=3.8in]{ss_a_df.JPG}
+    \caption{Simply-Supported Beam Design Factor (Aluminum)} 
+\end{figure}
+
+\bigskip
+
+% Figure 11
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth, height=3.8in]{ss_s_df.JPG}
+    \caption{Simply-Supported Beam Design Factor (Steel)} 
+\end{figure}
+
+\newpage
+
 
 \section*{\fontsize{12}{12}\selectfont CONCLUSION}
-The data from this beam bending test, performed on UL campus, has been analyzed and plotted. The originally recorded data was also used to calculate the deflections, as well as the true bending stress, for each beam. The results calculated from the data closely matched the data measured in the experiment. 
+The data from this beam bending test, performed on UL campus, has been analyzed and plotted. The originally recorded data was also used to calculate the deflections, as well as the bending stress, for each beam. The results calculated from the data closely matched the data measured in the experiment. 
 \bigskip
 
 The data also shows that cantilever beams deflect most towards the end of the beam when loaded as shown in Figure 1, while simply-supported beams deflect most towards the middle of the beam when loaded as shown in Figure 2. It was seen that the deflections of both types of beams followed a quadratic trend, just as (5) and (6) would suggest.
