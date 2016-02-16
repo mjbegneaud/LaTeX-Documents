@@ -1,0 +1,251 @@
+\documentclass[12pt]{article}
+\usepackage{times}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{cite}
+\usepackage{listings}
+\usepackage{dtklogos}
+\usepackage{wrapfig}
+\usepackage{subfigure}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amscd}
+\usepackage{caption}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{stackengine}
+\usepackage[export]{adjustbox}
+\patchcmd{\thebibliography}{\section*{\refname}}{}{}{}
+\usepackage[document]{ragged2e}    %This causes text to left align
+\usepackage[colorlinks=true, linkcolor=black,citecolor=black,urlcolor=blue]{hyperref}
+\bibliographystyle{IEEEtran}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+
+\title{MCHE 474: Lab 1}
+
+\begin{document}
+\lefthyphenmin3
+\righthyphenmin4
+% \pretolerance=2000
+% \tolerance=500 
+% \emergencystretch=10pt
+%\raggedright     %Stops LaTeX from automatically hyphenating the right margin to fit better
+%Combine this with \usepackage[document]{ragged2e} to get a text align left similar to natural MS Word
+
+
+%-------------------------------------------------------------
+%Start of Paper
+%-------------------------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% TITLE PAGE %%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
+
+\center % Center everything on the page
+ 
+%----------------------------------------------------------------------------------------
+%	Heading Section
+%----------------------------------------------------------------------------------------
+
+\textsc{\LARGE University of Louisiana at Lafayette}\\[1.5cm] % Name of your university/college
+\textsc{\Large Control Systems}\\[0.5cm] % Major heading such as course name
+\textsc{\large MCHE 474}\\[0.5cm] % Minor heading such as course title
+
+%----------------------------------------------------------------------------------------
+%	Title Section
+%----------------------------------------------------------------------------------------
+
+\HRule \\[0.4cm]
+{ \huge \bfseries Lab 1}\\[0.4cm] % Title of your document
+\HRule \\[1.5cm]
+ 
+%----------------------------------------------------------------------------------------
+%	Author Section
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}{0.4\textwidth}
+\begin{flushleft} \large
+\emph{Author:}\\
+\textsc{Matthew J. Begneaud} \\% Your name
+\end{flushleft}
+\end{minipage}
+~
+\begin{minipage}{0.4\textwidth}
+\begin{flushright} \large
+\emph{Professor:} \\
+\textsc{Dr. Mostafa A. Elsayed} % Supervisor's Name
+\end{flushright}
+\end{minipage}\\[1.5cm]
+
+% If you don't want a supervisor, uncomment the two lines below and remove the section above
+%\Large \emph{Author:}\\
+%John \textsc{Smith}\\[3cm] % Your name
+
+%----------------------------------------------------------------------------------------
+%	Date Section
+%----------------------------------------------------------------------------------------
+
+{\textsc{\large \today}}\\[2cm] % Date, change the \today to a set date if you want to be precise
+
+%----------------------------------------------------------------------------------------
+%	Logo Section
+%----------------------------------------------------------------------------------------
+
+\includegraphics[width=5in]{UL_logo.jpg}\\[1cm] % Include a department/university logo - this will require the graphicx package
+ 
+%----------------------------------------------------------------------------------------
+
+\vfill % Fill the rest of the page with whitespace
+
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% TABLE OF CONTENTS %%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+
+\listoffigures
+
+\newpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% REPORT %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\addcontentsline{toc}{section}{Introduction} % Add before each section
+\section*{\fontsize{12}{12}\selectfont \large Introduction}
+
+
+
+
+\addcontentsline{toc}{section}{Theory} % Add before each section
+\section*{\fontsize{12}{12}\selectfont \large Theory}
+
+
+
+
+\addcontentsline{toc}{section}{Procedure \& Analysis} % Add before each section
+\section*{\fontsize{12}{12}\selectfont \large Procedure \& Analysis}
+
+
+
+
+\addcontentsline{toc}{section}{Conclusion} % Add before each section
+\section*{\fontsize{12}{12}\selectfont \large Conclusion}
+
+
+
+
+
+%\section*{\fontsize{12}{12}\selectfont \large References}
+
+\begin{thebibliography}{2}
+
+% Example
+%\bibitem{Wagner}
+%Ng, K., Wagner, S.W., Camelio, J., Emblom, W.J. (2010). ?Experimental Analysis of Micro Tube
+%Hydroforming Process.? Transactions of NAMRC of SME, 38, 577-584.
+
+\end{thebibliography}
+
+
+
+%\section*{\fontsize{12}{12}\selectfont APPENDIX}
+
+%\begin{table}[h!]
+%  \caption{}
+%  \includegraphics[width=\linewidth]{table1.png}
+%\end{table}
+
+
+
+
+\end{document}
+
+
+
+
+
+
+
+----------------------------Templates-------------------------------
+
+-------------------------Figure-----------------------
+
+\begin{figure}[h!]  
+  \centering
+    \includegraphics[width=\linewidth]{**file**}
+    \caption{Docking Station}
+\end{figure}
+
+---------------------------Table-----------------------
+\begin{table}[ht]
+\caption{Nonlinear Model Results} % title of Table
+\centering % used for centering table
+\begin{tabular}{c c c c} % centered columns (4 columns)
+\hline\hline %inserts double horizontal lines
+Case & Method\#1 & Method\#2 & Method\#3 \\ [0.5ex] % inserts table
+%heading
+\hline % inserts single horizontal line
+1 & 50 & 837 & 970 \\ % inserting body of the table
+2 & 47 & 877 & 230 \\
+3 & 31 & 25 & 415 \\
+4 & 35 & 144 & 2356 \\
+5 & 45 & 300 & 556 \\ [1ex] % [1ex] adds vertical space
+\hline %inserts single line
+\end{tabular}
+\label{table:nonlin} % is used to refer this table in the text
+\end{table}
+
+
+
+probably best to insert as an image from excel
+
+\bigskip\\
+\begin{table}[h!]
+  \caption{}
+  \includegraphics[width=\linewidth]{**file**}
+\end{table}
+\bigskip\\
+
+
+
+
+
+-----------------------------Equations------------------------
+-----------------------------Regular
+\begin{equation}
+a = b + c
+\end{equation}
+
+--------------------------------- Multiline
+\begin{multline}
+a = b + c + d + e + f
++ g + h + i + j \\
++ k + l + m + n + o
+\end{multline}
+
+-------------------------------Citations-------------------------
+\bibitem{Author last name}
+  Last, First., year of publication,
+  article name, book(etc) name, from \\
+  link goes here
+
+----------------------------------other-----------------------------
+
+equations:
+http://moser-isi.ethz.ch/docs/typeset_equations.pdf
+
+citations:
+http://library.missouri.edu/engineering/about/guides/asme
+https://www.asme.org/shop/proceedings/conference-publications/references
