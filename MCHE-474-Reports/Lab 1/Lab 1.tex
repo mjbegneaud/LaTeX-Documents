@@ -112,9 +112,13 @@
 %%%%%%%%%%%%%%%%%%%%%%% TABLE OF CONTENTS %%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\tableofcontents
+\large \tableofcontents
 
-\listoffigures
+\large \bigskip
+
+\large \listoffigures
+
+%\listofmyequations
 
 \newpage
 
@@ -145,6 +149,7 @@ Signals in control systems are manipulated by various means. Passing a signal th
 \bigskip
 
 Signals are also commonly passed through transfer functions. A transfer function compares the output to the input of a linear system, time-variant systems. Transfer functions are in the frequency domain, which correlates to the Laplace domain. The time domain expression of the output is typically of interest in control systems, and using the transfer function of a system can help to obtain the time-response of the system. The general form of a transfer function for a system with input $R(s)$ and output $Y(s)$ is shown in Equations 1 and 2 as follows,
+\bigskip
 
 \begin{equation}
 H(s) = \frac{Y(s)}{R(s)} 
@@ -154,23 +159,23 @@ H(s) = \frac{L[y(t)]}{L[r(t)]}
 \end{equation}
 \bigskip
 
-where the time domain representations of the system input and output are $r(t)$ and $y(t)$, respectively.
+where $L$ is the Laplace transform operator and the time domain representations of the system input and output are $r(t)$ and $y(t)$, respectively.
 \bigskip
 
 Systems can also be described by their status as either stable or unstable. A stable system eventually approaches and tends to stay at some constant settling value known as a steady state value, as shown in Figure 2, until some external disturbance acts on it. Once that external disturbance is removed, the system returns to the steady state value. Unstable systems will not settle on their own and will continue to change even when there are no external disturbances acting on the system.
 \bigskip
 
 Systems also have other characteristics, such as overshoot. Overshoot is when the system output exceeds the steady state value, and can be seen in Figure 2 when the system output exceeds the step input at first. The overshoot is often described as a percentage, which can be calculated with Equation 3 as follows:
+\bigskip
 
 \begin{equation}
 O.S. = \frac{Max Value - Steady State Value}{Steady State Value}*100
 \end{equation}
+\bigskip
 
 Systems can also be described by rise time, which is defined as the time taken to rise from a low value state to a higher value state, and helps describe a system's ability to respond to sudden inputs. A system also has a characteristic settling time which is the time taken for the system to reach a state that lies within a specified range of error after responding to a step input. The system depicted in Figure 2 can be seen to reach a state which lies within a specified range of error after some time, for example.
-\newpage
+\bigskip
 
-\bigskip
-\bigskip
 
 % Figure 2
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
@@ -184,24 +189,36 @@ Systems can also be described by rise time, which is defined as the time taken t
 
 \addcontentsline{toc}{section}{Procedure \& Analysis} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large Procedure \& Analysis}
-The first part of the lab was to obtain the time response of the two given systems. To do so, the systems were first modeled in Simulink, as shown in Figure 3. MATALB was then used to obtain the time response to these systems. The time response to the first system is shown in Figure 4, and the time response to the second system is shown in Figure 5. A MATLAB script was also written to calculate the percent overshoot of the systems. As can be seen, the first system is unstable because it does not approach a steady state value; therefore, the first system has no percent overshoot as indicated after running the MATLAB script, the results of which are shown in Figure 6. It can be seen that the second system is stable because it reaches  a steady state value. The system has a percent overshoot of about 25\%.
+The first part of the lab was to obtain the time response of the two given systems. To do so, the systems were first modeled in Simulink, as shown in Figure 3. MATALB was then used to obtain the time response to these systems. The time response to the first (top) system is shown in Figure 4, and the time response to the second (bottom) system is shown in Figure 5. A MATLAB script was also written to calculate the percent overshoot of the systems. As can be seen, the first system is unstable because it does not approach a steady state value; therefore, the first system has quantifiable percent overshoot as indicated after running the MATLAB script, the results of which are shown in Figure 6. It can be seen that the second system is stable because it reaches  a steady state value. The system is calculated by the script to have a percent overshoot of about 25.4\%. The percent overshoot can also be calculated by analyzing the plot and using Equation 3, which results in a percent overshoot of about 25\%.
 \bigskip
 
-Another system was then described by only its transfer function in the second part of the lab. The transfer function was then analyzed using a MATLAB script in order to obtain various system characteristics. The characteristics obtained after running the MATLAB script are shown in Figure 7 and the plot of the system time response is shown in Figure 8. The system was calculated by the MATLAB script to have a percent overshoot of about 10.8\%, while the percent overshoot determined by analyzing the plot was found to be about [].
+Another system was then described by only its transfer function, shown in Equation 4, in the second part of the lab. The transfer function was then analyzed using a MATLAB script in order to obtain various system characteristics. The characteristics obtained after running the MATLAB script are shown in Figure 7 and the plot of the system time response is shown in Figure 8. The system was calculated by the MATLAB script to have a percent overshoot of about 10.8\%, while the percent overshoot determined by analyzing the plot  and using Equation 3 was found to be about 11.8\%. The rise time of the system was found to be 0.3121 seconds. The settling time was found to be 1.0213 seconds. This tells us that it took the system barely over 1 second to come to a steady state after being exposed to an external disturbance, in this case a step input. By analyzing the plot of the time response in Figure 8, the steady state value is seen to be around 3.6.
+\bigskip
+\bigskip
+
+\begin{equation}
+TF = \frac{360}{3s^2+20s+100}
+\end{equation}
+
 \newpage
+
+\bigskip
+\bigskip
 
 % Figure 3
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=4in]{simulink_models.jpg} 
+   \includegraphics[width=\linewidth,height=7in]{simulink_models.jpg} 
    \caption{Simulink Models}
    \label{fig:example}
 \end{figure}
 
+\newpage
+
 % Figure 4
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=4in]{time_response_system_1.jpg} 
+   \includegraphics[width=\linewidth]{time_response_system_1.jpg} 
    \caption{Lab Part 1 System 1 Time Response}
    \label{fig:example}
 \end{figure}
@@ -209,10 +226,13 @@ Another system was then described by only its transfer function in the second pa
 % Figure 5
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=4in]{time_response_system_2.jpg} 
+   \includegraphics[width=\linewidth]{time_response_system_2.jpg} 
    \caption{Lab Part 1 System 2 Time Response}
    \label{fig:example}
 \end{figure}
+\bigskip
+
+\newpage
 
 % Figure 6
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
@@ -221,6 +241,8 @@ Another system was then described by only its transfer function in the second pa
    \caption{Lab Part 1 Commandline}
    \label{fig:example}
 \end{figure}
+\bigskip
+\bigskip
 
 % Figure 7
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
@@ -230,25 +252,22 @@ Another system was then described by only its transfer function in the second pa
    \label{fig:example}
 \end{figure}
 
+\newpage
+
 % Figure 8
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
-   \includegraphics[width=4in]{part_2_time_response.jpg} 
+   \includegraphics[width=\linewidth]{part_2_time_response.jpg} 
    \caption{Lab Part 2 Time Response}
    \label{fig:example}
 \end{figure}
-
-
-%\addcontentsline{toc}{section}{Results and Discussion} % Add before each section
-%\section*{\fontsize{12}{12}\selectfont \large Results and Discussion}
-
+\bigskip
 
 
 
 \addcontentsline{toc}{section}{Conclusion} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large Conclusion}
-
-
+The exercises conducted in the lab reinforce the theory learned in the classroom. It is shown that systems can be modeled and analyzed using MATLAB and Simulink in order to achieve the same system characteristics that can be calculated using various methods and equations. The systems analyzed supplemented firsthand experience with systems in which signals are passed through gains, transfer functions, feedback loops, and summation points. These types of devices are commonplace in modern circuits and control systems, which makes it important to have firsthand experience with them.
 
 
 
