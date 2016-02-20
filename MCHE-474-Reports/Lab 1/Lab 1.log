@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  16 FEB 2016 19:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  17 FEB 2016 17:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,12 +1024,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.123 \newpage
+l.121 \newpage
                [1]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 128.
 
-Overfull \hbox (2.86234pt too wide) in paragraph at lines 131--134
+Overfull \hbox (2.86234pt too wide) in paragraph at lines 129--132
 \OT1/ptm/m/n/14.4 This lab was con-ducted by uti-lizing MATLAB, specif-i-cally 
 the Simulink package, 
  []
@@ -1038,34 +1038,34 @@ the Simulink package,
 File: signal_diagrams.jpg Graphic file (type jpg)
 
 <use signal_diagrams.jpg>
-Package pdftex.def Info: signal_diagrams.jpg used on input line 138.
+Package pdftex.def Info: signal_diagrams.jpg used on input line 136.
 (pdftex.def)             Requested size: 469.75502pt x 391.21693pt.
  [2 <./signal_diagrams.jpg>]
-Overfull \hbox (11.43011pt too wide) in paragraph at lines 148--150
+Overfull \hbox (11.43011pt too wide) in paragraph at lines 146--148
 \OT1/ptm/m/n/14.4 mental if the actu-ator is not receiving enough power in orde
 r to carry out its desired 
  []
 
 
-Overfull \hbox (3.56776pt too wide) in paragraph at lines 148--150
+Overfull \hbox (3.56776pt too wide) in paragraph at lines 146--148
 \OT1/ptm/m/n/14.4 sors gives the system feed-back which can ensure the system p
 er-forms as intended. 
  []
 
 
-Overfull \hbox (1.0324pt too wide) in paragraph at lines 165--167
+Overfull \hbox (1.0324pt too wide) in paragraph at lines 163--165
 []\OT1/ptm/m/n/14.4 Systems can also be described by their status as either sta
 ble or unstable. A stable 
  []
 
 [3]
-Overfull \hbox (0.83041pt too wide) in paragraph at lines 176--178
+Overfull \hbox (0.83041pt too wide) in paragraph at lines 174--176
 \OT1/ptm/m/n/14.4 time which is the time taken for the system to reach a state 
 that lies within a spec- 
  []
 
 
-Overfull \hbox (3.42406pt too wide) in paragraph at lines 176--178
+Overfull \hbox (3.42406pt too wide) in paragraph at lines 174--176
 \OT1/ptm/m/n/14.4 i-fied range of error after responding to a step input. The s
 ystem depicted in Figure 
  []
@@ -1073,22 +1073,22 @@ ystem depicted in Figure
 <stable_system.JPG, id=68, 2085.7925pt x 1001.7425pt>
 File: stable_system.JPG Graphic file (type jpg)
  <use stable_system.JPG>
-Package pdftex.def Info: stable_system.JPG used on input line 183.
+Package pdftex.def Info: stable_system.JPG used on input line 181.
 (pdftex.def)             Requested size: 469.75502pt x 225.59633pt.
 
-Overfull \hbox (0.25545pt too wide) in paragraph at lines 192--194
+Overfull \hbox (0.25545pt too wide) in paragraph at lines 190--192
 \OT1/ptm/m/n/14.4 time response to the first (top) system is shown in Figure 4,
  and the time response 
  []
 
 [4 <./stable_system.JPG>]
-Overfull \hbox (3.49643pt too wide) in paragraph at lines 195--198
+Overfull \hbox (3.49643pt too wide) in paragraph at lines 193--196
 \OT1/ptm/m/n/14.4 tion 4, in the second part of the lab. The transfer func-tion
  was then ana-lyzed using 
  []
 
 
-Overfull \hbox (4.30278pt too wide) in paragraph at lines 195--198
+Overfull \hbox (4.30278pt too wide) in paragraph at lines 193--196
 \OT1/ptm/m/n/14.4 took the system barely over 1 second to come to a steady stat
 e after being exposed 
  []
@@ -1097,58 +1097,58 @@ e after being exposed
 File: simulink_models.jpg Graphic file (type jpg)
 
 <use simulink_models.jpg>
-Package pdftex.def Info: simulink_models.jpg used on input line 211.
+Package pdftex.def Info: simulink_models.jpg used on input line 209.
 (pdftex.def)             Requested size: 469.75052pt x 505.90121pt.
  [6 <./simulink_models.jpg>]
 <time_response_system_1.jpg, id=88, 1196.47pt x 573.14125pt>
 File: time_response_system_1.jpg Graphic file (type jpg)
 
 <use time_response_system_1.jpg>
-Package pdftex.def Info: time_response_system_1.jpg used on input line 221.
+Package pdftex.def Info: time_response_system_1.jpg used on input line 219.
 (pdftex.def)             Requested size: 469.75502pt x 225.0284pt.
 
 <time_response_system_2.jpg, id=89, 1196.47pt x 573.14125pt>
 File: time_response_system_2.jpg Graphic file (type jpg)
 
 <use time_response_system_2.jpg>
-Package pdftex.def Info: time_response_system_2.jpg used on input line 229.
+Package pdftex.def Info: time_response_system_2.jpg used on input line 227.
 (pdftex.def)             Requested size: 469.75502pt x 225.0284pt.
  [7 <./time_response_system_1.jpg> <./time_response_system_2.jpg>] <part_1_comm
-andline.jpg, id=94, 748.7975pt x 572.1375pt>
+andline.jpg, id=94, 196.735pt x 274.02374pt>
 File: part_1_commandline.jpg Graphic file (type jpg)
 
 <use part_1_commandline.jpg>
-Package pdftex.def Info: part_1_commandline.jpg used on input line 240.
-(pdftex.def)             Requested size: 289.07999pt x 220.88036pt.
+Package pdftex.def Info: part_1_commandline.jpg used on input line 238.
+(pdftex.def)             Requested size: 180.67499pt x 251.65332pt.
 
 <part_2_commandline.jpg, id=95, 666.49pt x 594.22pt>
 File: part_2_commandline.jpg Graphic file (type jpg)
 
 <use part_2_commandline.jpg>
-Package pdftex.def Info: part_2_commandline.jpg used on input line 250.
+Package pdftex.def Info: part_2_commandline.jpg used on input line 248.
 (pdftex.def)             Requested size: 289.07999pt x 257.74011pt.
  [8 <./part_1_commandline.jpg> <./part_2_commandline.jpg>] <part_2_time_respons
 e.jpg, id=100, 562.1pt x 421.575pt>
 File: part_2_time_response.jpg Graphic file (type jpg)
 
 <use part_2_time_response.jpg>
-Package pdftex.def Info: part_2_time_response.jpg used on input line 260.
+Package pdftex.def Info: part_2_time_response.jpg used on input line 258.
 (pdftex.def)             Requested size: 469.75502pt x 352.31299pt.
 
-Overfull \hbox (19.048pt too wide) in paragraph at lines 270--271
+Overfull \hbox (19.048pt too wide) in paragraph at lines 268--269
 \OT1/ptm/m/n/14.4 It is shown that sys-tems can be mod-eled and ana-lyzed using
  MATLAB and Simulink 
  []
 
 
-LaTeX Warning: Empty `thebibliography' environment on input line 283.
+LaTeX Warning: Empty `thebibliography' environment on input line 281.
 
 [9 <./part_2_time_response.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 297.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 297.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
  (./Lab 1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 297.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 297.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `"Lab 1".out' has not changed.
 (rerunfilecheck)             Checksum: 729B976D8C3AB7106D61E2FD5ADB4013;214.
 
@@ -1159,7 +1159,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  21727 strings out of 493089
  390954 string characters out of 6134842
- 485391 words of memory out of 5000000
+ 485392 words of memory out of 5000000
  24722 multiletter control sequences out of 15000+600000
  30123 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1172,7 +1172,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on "Lab 1.pdf" (10 pages, 558760 bytes).
+Output written on "Lab 1.pdf" (10 pages, 520905 bytes).
 PDF statistics:
  140 PDF objects out of 1000 (max. 8388607)
  110 compressed objects within 2 object streams
