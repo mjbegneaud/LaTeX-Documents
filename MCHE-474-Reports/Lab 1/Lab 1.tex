@@ -118,14 +118,25 @@
 
 \large \listoffigures
 
+\section*{\fontsize{12}{12}\selectfont \large List of Symbols}
+\addcontentsline{toc}{section}{List of Symbols} % Add for each section
+ H(s) = Transfer Function in Laplace Domain\\
+Y(s) = Output Function in Laplace Domain\\
+R(s) = Input Function in Laplace Domain\\
+L[ ] = Laplace Transform Operator\\
+y(t) = Output Function in Time Domain\\
+r(t) = Input Function in Time Domain\\
+O.S. = Percent Overshoot\\
+
 \newpage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%% REPORT %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\addcontentsline{toc}{section}{Introduction} % Add before each section
+
 \section*{\fontsize{12}{12}\selectfont \large Introduction}
+\addcontentsline{toc}{section}{Introduction} % Add for each section
 This lab was conducted by utilizing MATLAB, specifically the Simulink package, in order to analyze control signal diagrams. These diagrams consisted of gains, summation points, transfer functions, and feedback loops. These systems were analyzed with the main goal of obtaining the time response. The systems to be analyzed are shown in Figure 1. 
 \bigskip
 \bigskip
@@ -141,8 +152,8 @@ This lab was conducted by utilizing MATLAB, specifically the Simulink package, i
 \newpage
 
 
-\addcontentsline{toc}{section}{Theory} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large Theory}
+\addcontentsline{toc}{section}{Theory} % Add for each section
 Signals in control systems are manipulated by various means. Passing a signal through a gain simply increases, or decreases, a signal strength, which is quite useful. Signals can also go through feedback loops. Feedback loops can make the system more robust. For example, passing a signal to an actuator without any sensing cannot provide any feedback as to what the outcome is. This is detrimental if the actuator is not receiving enough power in order to carry out its desired task, or if the actuator has reached a goal position and needs to stop. Having sensors gives the system feedback which can ensure the system performs as intended. Feedback loops can be negative or positive depending on the desired function of the loop. 
 \bigskip
 
@@ -179,14 +190,15 @@ Systems can also be described by rise time, which is defined as the time taken t
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=\linewidth]{stable_system.JPG} 
-   \caption{Example of Stable System}
+   \caption{Example of Stable System Time Response}
    \label{fig:example}
 \end{figure}
 
 \bigskip
 
-\addcontentsline{toc}{section}{Procedure \& Analysis} % Add before each section
+
 \section*{\fontsize{12}{12}\selectfont \large Procedure \& Analysis}
+\addcontentsline{toc}{section}{Procedure \& Analysis} % Add for each section
 The first part of the lab was to obtain the time response of the two given systems. To do so, the systems were first modeled in Simulink, as shown in Figure 3. MATALB was then used to obtain the time response to these systems. The time response to the first (top) system is shown in Figure 4, and the time response to the second (bottom) system is shown in Figure 5. A MATLAB script was also written to calculate the percent overshoot of the systems. As can be seen, the first system is unstable because it does not approach a steady state value; therefore, the first system has quantifiable percent overshoot as indicated after running the MATLAB script, the results of which are shown in Figure 6. It can be seen that the second system is stable because it reaches  a steady state value. The system is calculated by the script to have a percent overshoot of about 25.4\%. The percent overshoot can also be calculated by analyzing the plot and using Equation 3, which results in a percent overshoot of about 25\%.
 \bigskip
 
@@ -195,7 +207,7 @@ Another system was then described by only its transfer function, shown in Equati
 \bigskip
 
 \begin{equation}
-TF = \frac{360}{3s^2+20s+100}
+H(s) = \frac{360}{3s^2+20s+100}
 \end{equation}
 
 \newpage
@@ -263,8 +275,8 @@ TF = \frac{360}{3s^2+20s+100}
 
 
 
-\addcontentsline{toc}{section}{Conclusion} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large Conclusion}
+\addcontentsline{toc}{section}{Conclusion} % Add for each section
 The exercises conducted in the lab reinforce the theory learned in the classroom. It is shown that systems can be modeled and analyzed using MATLAB and Simulink in order to achieve the same system characteristics that can be calculated using various methods and equations. The systems analyzed supplemented firsthand experience with systems in which signals are passed through gains, transfer functions, feedback loops, and summation points. These types of devices are commonplace in modern circuits and control systems, which makes it important to have firsthand experience with them.
 
 

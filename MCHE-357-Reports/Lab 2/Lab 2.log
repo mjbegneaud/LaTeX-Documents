@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2016 16:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2016 13:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1054,150 +1054,150 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 \openout6 = `"Lab 2.lof"'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.144 \newpage
                [1] [2]
-<Oscilloscope_Circuit.PNG, id=93, 691.08188pt x 274.02374pt>
+<Oscilloscope_Circuit.PNG, id=95, 691.08188pt x 274.02374pt>
 File: Oscilloscope_Circuit.PNG Graphic file (type png)
 
 <use Oscilloscope_Circuit.PNG>
-Package pdftex.def Info: Oscilloscope_Circuit.PNG used on input line 183.
+Package pdftex.def Info: Oscilloscope_Circuit.PNG used on input line 186.
 (pdftex.def)             Requested size: 397.48499pt x 157.60841pt.
 
-<100hz_0r.PNG, id=95, 529.22719pt x 358.33875pt>
+<100hz_0r.PNG, id=97, 529.22719pt x 358.33875pt>
 File: 100hz_0r.PNG Graphic file (type png)
  <use 100hz_0r.PNG>
-Package pdftex.def Info: 100hz_0r.PNG used on input line 192.
+Package pdftex.def Info: 100hz_0r.PNG used on input line 195.
 (pdftex.def)             Requested size: 361.34999pt x 244.66772pt.
  [3 <./Oscilloscope_Circuit.PNG> <./100hz_0r.PNG>]
-<100hz_25r.PNG, id=103, 527.72156pt x 364.36125pt>
+<100hz_25r.PNG, id=104, 527.72156pt x 364.36125pt>
 File: 100hz_25r.PNG Graphic file (type png)
  <use 100hz_25r.PNG>
-Package pdftex.def Info: 100hz_25r.PNG used on input line 201.
+Package pdftex.def Info: 100hz_25r.PNG used on input line 204.
 (pdftex.def)             Requested size: 361.34999pt x 249.49142pt.
 
-<100hz.PNG, id=104, 527.72156pt x 361.35pt>
+<100hz.PNG, id=105, 527.72156pt x 361.35pt>
 File: 100hz.PNG Graphic file (type png)
  <use 100hz.PNG>
-Package pdftex.def Info: 100hz.PNG used on input line 209.
+Package pdftex.def Info: 100hz.PNG used on input line 212.
 (pdftex.def)             Requested size: 361.34999pt x 247.42952pt.
- [4 <./100hz_25r.PNG> <./100hz.PNG>] <100hz_75r.PNG, id=111, 526.96875pt x 363.
+ [4 <./100hz_25r.PNG> <./100hz.PNG>] <100hz_75r.PNG, id=112, 526.96875pt x 363.
 60844pt>
 File: 100hz_75r.PNG Graphic file (type png)
 
 <use 100hz_75r.PNG>
-Package pdftex.def Info: 100hz_75r.PNG used on input line 219.
+Package pdftex.def Info: 100hz_75r.PNG used on input line 222.
 (pdftex.def)             Requested size: 361.34999pt x 249.34213pt.
- <100hz_100r.PNG, id=112, 526.96875pt x 364.36125pt>
+ <100hz_100r.PNG, id=113, 526.96875pt x 364.36125pt>
 File: 100hz_100r.PNG Graphic file (type png)
 
 <use 100hz_100r.PNG>
-Package pdftex.def Info: 100hz_100r.PNG used on input line 227.
+Package pdftex.def Info: 100hz_100r.PNG used on input line 230.
 (pdftex.def)             Requested size: 361.34999pt x 249.85837pt.
  [5 <./100hz_75r.PNG> <./100hz_100r.PNG>]
-<289hz.PNG, id=119, 526.96875pt x 362.85562pt>
+<289hz.PNG, id=120, 526.96875pt x 362.85562pt>
 File: 289hz.PNG Graphic file (type png)
  <use 289hz.PNG>
-Package pdftex.def Info: 289hz.PNG used on input line 236.
+Package pdftex.def Info: 289hz.PNG used on input line 239.
 (pdftex.def)             Requested size: 361.34999pt x 248.8259pt.
 
-<500hz.PNG, id=120, 528.47438pt x 365.11406pt>
+<500hz.PNG, id=121, 528.47438pt x 365.11406pt>
 File: 500hz.PNG Graphic file (type png)
  <use 500hz.PNG>
-Package pdftex.def Info: 500hz.PNG used on input line 244.
+Package pdftex.def Info: 500hz.PNG used on input line 247.
 (pdftex.def)             Requested size: 361.34999pt x 249.65034pt.
- [6 <./289hz.PNG> <./500hz.PNG>] <100hz_ab.PNG, id=128, 528.47438pt x 364.36125
+ [6 <./289hz.PNG> <./500hz.PNG>] <100hz_ab.PNG, id=129, 528.47438pt x 364.36125
 pt>
 File: 100hz_ab.PNG Graphic file (type png)
 
 <use 100hz_ab.PNG>
-Package pdftex.def Info: 100hz_ab.PNG used on input line 253.
+Package pdftex.def Info: 100hz_ab.PNG used on input line 256.
 (pdftex.def)             Requested size: 361.34999pt x 249.1356pt.
- <289hz_ab.PNG, id=129, 530.73282pt x 364.36125pt>
+ <289hz_ab.PNG, id=130, 530.73282pt x 364.36125pt>
 File: 289hz_ab.PNG Graphic file (type png)
 
 <use 289hz_ab.PNG>
-Package pdftex.def Info: 289hz_ab.PNG used on input line 261.
+Package pdftex.def Info: 289hz_ab.PNG used on input line 264.
 (pdftex.def)             Requested size: 361.34999pt x 248.07927pt.
  [7 <./100hz_ab.PNG> <./289hz_ab.PNG>]
-<500hz_ab.PNG, id=136, 532.23843pt x 365.86688pt>
+<500hz_ab.PNG, id=137, 532.23843pt x 365.86688pt>
 File: 500hz_ab.PNG Graphic file (type png)
  <use 500hz_ab.PNG>
-Package pdftex.def Info: 500hz_ab.PNG used on input line 270.
+Package pdftex.def Info: 500hz_ab.PNG used on input line 273.
 (pdftex.def)             Requested size: 289.07999pt x 198.72078pt.
 
-<real_circuit.jpg, id=137, 4175.6pt x 3131.7pt>
+<real_circuit.jpg, id=138, 4175.6pt x 3131.7pt>
 File: real_circuit.jpg Graphic file (type jpg)
  <use real_circuit.jpg>
-Package pdftex.def Info: real_circuit.jpg used on input line 283.
+Package pdftex.def Info: real_circuit.jpg used on input line 286.
 (pdftex.def)             Requested size: 289.07999pt x 216.80432pt.
  [8 <./500hz_ab.PNG> <./real_circuit.jpg>]
-<SpreadSheetFinal.jpg, id=143, 1373.13pt x 770.88pt>
+<SpreadSheetFinal.jpg, id=144, 1373.13pt x 770.88pt>
 File: SpreadSheetFinal.jpg Graphic file (type jpg)
 
 <use SpreadSheetFinal.jpg>
-Package pdftex.def Info: SpreadSheetFinal.jpg used on input line 292.
+Package pdftex.def Info: SpreadSheetFinal.jpg used on input line 295.
 (pdftex.def)             Requested size: 469.75502pt x 263.71898pt.
- <below_nat_freq.jpg, id=144, 3131.7pt x 4175.6pt>
+ <below_nat_freq.jpg, id=145, 3131.7pt x 4175.6pt>
 File: below_nat_freq.jpg Graphic file (type jpg)
 
 <use below_nat_freq.jpg>
-Package pdftex.def Info: below_nat_freq.jpg used on input line 300.
+Package pdftex.def Info: below_nat_freq.jpg used on input line 303.
 (pdftex.def)             Requested size: 180.67499pt x 240.84059pt.
  [9 <./SpreadSheetFinal.jpg> <./below_nat_freq.jpg>]
-<at_nat_freq.jpg, id=149, 3131.7pt x 4175.6pt>
+<at_nat_freq.jpg, id=150, 3131.7pt x 4175.6pt>
 File: at_nat_freq.jpg Graphic file (type jpg)
  <use at_nat_freq.jpg>
-Package pdftex.def Info: at_nat_freq.jpg used on input line 309.
+Package pdftex.def Info: at_nat_freq.jpg used on input line 312.
 (pdftex.def)             Requested size: 180.67499pt x 240.84059pt.
 
-<above_nat_freq.jpg, id=150, 3131.7pt x 4175.6pt>
+<above_nat_freq.jpg, id=151, 3131.7pt x 4175.6pt>
 File: above_nat_freq.jpg Graphic file (type jpg)
  <use above_nat_freq.jpg>
-Package pdftex.def Info: above_nat_freq.jpg used on input line 317.
+Package pdftex.def Info: above_nat_freq.jpg used on input line 320.
 (pdftex.def)             Requested size: 180.67499pt x 240.84059pt.
 
 [10 <./at_nat_freq.jpg> <./above_nat_freq.jpg>]
-<ab_below_nat_freq.jpg, id=155, 3131.7pt x 4175.6pt>
+<ab_below_nat_freq.jpg, id=156, 3131.7pt x 4175.6pt>
 File: ab_below_nat_freq.jpg Graphic file (type jpg)
 
 <use ab_below_nat_freq.jpg>
-Package pdftex.def Info: ab_below_nat_freq.jpg used on input line 326.
+Package pdftex.def Info: ab_below_nat_freq.jpg used on input line 329.
 (pdftex.def)             Requested size: 180.67499pt x 240.84059pt.
- <ab_at_nat_freq.jpg, id=156, 3131.7pt x 4175.6pt>
+ <ab_at_nat_freq.jpg, id=157, 3131.7pt x 4175.6pt>
 File: ab_at_nat_freq.jpg Graphic file (type jpg)
 
 <use ab_at_nat_freq.jpg>
-Package pdftex.def Info: ab_at_nat_freq.jpg used on input line 334.
+Package pdftex.def Info: ab_at_nat_freq.jpg used on input line 337.
 (pdftex.def)             Requested size: 180.67499pt x 240.84059pt.
  [11 <./ab_below_nat_freq.jpg> <./ab_at_nat_freq.jpg>]
-<ab_above_nat_freq.jpg, id=161, 3131.7pt x 4175.6pt>
+<ab_above_nat_freq.jpg, id=162, 3131.7pt x 4175.6pt>
 File: ab_above_nat_freq.jpg Graphic file (type jpg)
 
 <use ab_above_nat_freq.jpg>
-Package pdftex.def Info: ab_above_nat_freq.jpg used on input line 343.
+Package pdftex.def Info: ab_above_nat_freq.jpg used on input line 346.
 (pdftex.def)             Requested size: 180.67499pt x 240.84059pt.
 
-Overfull \hbox (8.04434pt too wide) in paragraph at lines 352--353
+Overfull \hbox (8.04434pt too wide) in paragraph at lines 356--357
 \OT1/ptm/m/n/12 capac-i-tors, and induc-tances. The effects of varying the resi
 s-tance and input fre-quency were studied. 
  []
 
 
-LaTeX Warning: Empty `thebibliography' environment on input line 365.
+LaTeX Warning: Empty `thebibliography' environment on input line 369.
 
 [12 <./ab_above_nat_freq.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 383.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 383.
  (./Lab 2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 383.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 383.
 Package rerunfilecheck Info: File `"Lab 2".out' has not changed.
-(rerunfilecheck)             Checksum: 85E48F53DE7264B79DD64BEA7B1664CF;255.
+(rerunfilecheck)             Checksum: DAA1CCF2B6D04DEED8BDDC5ABE3CDE7D;247.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1205,7 +1205,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  21887 strings out of 493089
- 392572 string characters out of 6134842
+ 392564 string characters out of 6134842
  496646 words of memory out of 5000000
  24856 multiletter control sequences out of 15000+600000
  29709 words of font info for 58 fonts, out of 8000000 for 9000
@@ -1220,7 +1220,7 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-
 dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts
 /type1/urw/times/utmri8a.pfb>
-Output written on "Lab 2.pdf" (13 pages, 21808025 bytes).
+Output written on "Lab 2.pdf" (13 pages, 21808065 bytes).
 PDF statistics:
  209 PDF objects out of 1000 (max. 8388607)
  153 compressed objects within 2 object streams

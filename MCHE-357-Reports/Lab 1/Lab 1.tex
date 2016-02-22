@@ -131,14 +131,14 @@
 \bigskip
 
 
-\addcontentsline{toc}{section}{List of Symbols} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large List of Symbols}
- $R$ = Resistance\\
+\addcontentsline{toc}{section}{List of Symbols} % Add for each section
+ $R$ = Resistance (Ohms)\\
 $R_{parallel}$ = Parallel resistance\\
 $R_{series}$ = Series resistance\\
-$V$ = Voltage\\
+$V$ = Voltage (Volts)\\
 $V_{s}$ = Supply Voltage\\
-$I$ = Current\\
+$I$ = Current (Amps)\\
 
 \newpage
 
@@ -146,15 +146,15 @@ $I$ = Current\\
 %%%%%%%%%%%%%%%%%%%%%%% REPORT %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\addcontentsline{toc}{section}{Introduction} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large Introduction}
-This lab served as an introduction to the basic principles of electrical circuits. These principles include resistances, inductance, capacitance, using Ohm's Law, and using Kirchoff's Laws. These principles were first analyzed and practiced using Multisim, an electric circuit simulation program, and were then observed by measuring physical circuits and comparing the results to the calculated results. 
+\addcontentsline{toc}{section}{Introduction} % Add for each section
+This lab served as an introduction to the basic principles of electrical circuits. These principles include resistance, inductance, capacitance, using Ohm's Law, and using Kirchhoff's Laws. These principles were first analyzed and practiced using Multisim, an electric circuit simulation program, and were then observed by measuring physical circuits and comparing the results to the calculated results. 
 
 
 
-\addcontentsline{toc}{section}{Theory} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large Theory}
-The three main characteristics of electrical components must be understood to analyze circuits. Resistance is a quality of a component which measures the blocking of current through the device. Capacitance is the ability of a device to store charge. Inductance is the characteristic of a device that reacts to changes in current. Each of these characteristics are analogous to mechanical properties. An inductance is analogous to inertia, or mass. Resistance is analogous to dampening, and capacitance is analogous to a spring. Making a circuit with all three types of devices results in a system similar to a simple mechanical vibrating system with a mass, dampener, and spring. 
+\addcontentsline{toc}{section}{Theory} % Add for each section
+The three main characteristics of electrical components must be understood to analyze circuits. Resistance is a quality of a component which measures the blocking of current (charge flow) through the device. Capacitance is the ability of a device to store charge. Inductance is the characteristic of a device that reacts to changes in current. Each of these characteristics are analogous to mechanical properties. An inductance is analogous to inertia, or mass. Resistance is analogous to dampening, and capacitance is analogous to a spring. Making a circuit with all three types of devices results in a system similar to a simple mechanical vibrating system with a mass, dampener, and spring. 
 \bigskip
 
 In circuits, systems of resistances can be combined into equivalent resistances. Two resistors in parallel can be combined into an equivalent resistance by using Equation 1, and two resistances in series can be combined using Equation 2. This can be useful in circuit analysis with complex systems of resistances. 
@@ -175,7 +175,7 @@ In circuits, systems of resistances can be combined into equivalent resistances.
  
  
  
- Ohm's law for resistances, expressed in Equation 3, is frequently used in circuit analysis to relate voltages across resistors to the current flowing through a resistor. Kirchhoff's Voltage Law is also often used in circuit analysis, and is shown in Equation 4. This law states that for a circuit, the voltage supplied to a circuit will be equal to the voltage consumed by all devices in the circuit. Kirchhoff's Current Law, shown in Equation 5, states that the current in one wire that splits into $n$ wires is equivalent to the sum of the currents in the $n$ wires. Using all of these laws allows analysis of basic circuits to be conducted.
+ Ohm's law for resistances, expressed in Equation 3, is frequently used in circuit analysis to relate voltages across resistors to the current flowing through a resistor. Kirchhoff's Voltage Law is also often used in circuit analysis, and is shown in Equation 4. This law states that the voltage supplied to a circuit will be equal to the voltage consumed by all devices in the circuit. Kirchhoff's Current Law, shown in Equation 5, states that the current in one wire that splits into $n$ wires is equivalent to the sum of the currents in the $n$ wires. Using all of these laws allows analysis of basic circuits to be conducted.
  \bigskip
  
  
@@ -199,18 +199,19 @@ I_{i}
 
 Another useful device in electronic circuits is the potentiometer. This device is a variable resistor that gives the user the ability to change the resistance across the potentiometer by turning a knob. 
 
-\addcontentsline{toc}{section}{Procedure \& Analysis} % Add before each section
+
 \section*{\fontsize{12}{12}\selectfont \large Procedure \& Analysis}
+\addcontentsline{toc}{section}{Procedure \& Analysis} % Add for each section
 Four circuits were configured in Multisim, shown in Figures 1 through 4, and were then analyzed at various points using the equations mentioned in the previous section. These calculations were then compared to the results measured by the program. The program results closely match the calculations shown in Figure 8.
 \bigskip
 
-The circuit configurations created in Multisim were then created physically in the lab, as shown in Figures 5 through 7. Resistances were chosen from a bin and were measured and recorded. The values of the individual resistances varied from their denoted value slightly, as is usual with resistors. The values of equivalent resistances were then calculated using Equations 1 and 2 and were compared to the resistances calculated. These calculated values and measured values can be seen in Figure 9. A capacitor and inductor were also measured and are recorded in Figure 9.
+The circuit configurations created in Multisim were then created physically in the lab, as shown in Figures 5 through 7. Resistances were chosen from a bin and were measured and recorded. The values of the individual resistances varied from their denoted value slightly, as is normal with resistors. The values of equivalent resistances were then calculated using Equations 1 and 2 and were compared to the resistances calculated. These calculated values and measured values can be seen in Figure 9. A capacitor and inductor were also measured and are recorded in Figure 9.
 \bigskip
 
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=4in]{Circuit_1.PNG} 
-   \caption{Circuit 1}
+   \caption{Circuit 1 (Multisim)}
    \label{fig:example}
 \end{figure}
 
@@ -219,14 +220,14 @@ The circuit configurations created in Multisim were then created physically in t
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=4in]{Circuit_2.PNG} 
-   \caption{Circuit 2}
+   \caption{Circuit 2 (Multisim)}
    \label{fig:example}
 \end{figure}
 
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=4in]{Circuit_3.PNG} 
-   \caption{Circuit 3}
+   \caption{Circuit 3 (Multisim)}
    \label{fig:example}
 \end{figure}
 
@@ -235,7 +236,7 @@ The circuit configurations created in Multisim were then created physically in t
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=4in]{Circuit_4.PNG} 
-   \caption{Circuit 4}
+   \caption{Circuit 4 (Multisim)}
    \label{fig:example}
 \end{figure}
 
@@ -243,7 +244,7 @@ The circuit configurations created in Multisim were then created physically in t
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=4in,angle=-90]{Circuit_1_real.jpg} 
-   \caption{Circuit 1}
+   \caption{Circuit 1 (Physical)}
    \label{fig:example}
 \end{figure}
 
@@ -252,14 +253,14 @@ The circuit configurations created in Multisim were then created physically in t
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=3.5in,angle=-90]{Circuit_2_real.jpg} 
-   \caption{Circuit 2}
+   \caption{Circuit 2 (Physical)}
    \label{fig:example}
 \end{figure}
 
 \begin{figure}[h!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=3.5in,angle=-90]{Circuit_3_real.jpg} 
-   \caption{Circuit 3}
+   \caption{Circuit 3 (Physical)}
    \label{fig:example}
 \end{figure}
 
@@ -283,8 +284,8 @@ The circuit configurations created in Multisim were then created physically in t
 
 \newpage
 
-\addcontentsline{toc}{section}{Conclusion} % Add before each section
 \section*{\fontsize{12}{12}\selectfont \large Conclusion}
+\addcontentsline{toc}{section}{Conclusion} % Add for each section
 This lab demonstrated the principles of basic electrical components. These devices include resistances, capacitors, and inductances. Equivalent resistances was also studied heavily in this lab. Ohm's Law and Kirchhoff's Laws were also studied and used in this lab. The principles learned about basic circuits in this lab will serve as a foundation for understanding future labs.
 
 

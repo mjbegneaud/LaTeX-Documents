@@ -1,6 +1,6 @@
 \select@language {english}
-\contentsline {section}{List of Symbols}{1}{section*.2}
-\contentsline {section}{Introduction}{2}{section*.3}
-\contentsline {section}{Theory}{2}{section*.4}
-\contentsline {section}{Procedure \& Analysis}{3}{equation.0.5}
-\contentsline {section}{Conclusion}{9}{figure.caption.15}
+\contentsline {section}{List of Symbols}{1}{section*.3}
+\contentsline {section}{Introduction}{2}{section*.4}
+\contentsline {section}{Theory}{2}{section*.5}
+\contentsline {section}{Procedure \& Analysis}{3}{section*.6}
+\contentsline {section}{Conclusion}{9}{section*.16}

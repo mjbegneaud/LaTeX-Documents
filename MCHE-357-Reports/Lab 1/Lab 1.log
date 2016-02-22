@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 FEB 2016 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2016 13:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1024,88 +1024,88 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 \openout6 = `"Lab 1.lof"'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.143 \newpage
                [1]
-Overfull \hbox (2.52432pt too wide) in paragraph at lines 157--159
-\OT1/ptm/m/n/12 Resis-tance is a quality of a com-po-nent which mea-sures the b
-locking of cur-rent through the device. 
+Overfull \hbox (1.40872pt too wide) in paragraph at lines 151--152
+\OT1/ptm/m/n/12 include resis-tance, induc-tance, capac-i-tance, using Ohm's La
+w, and using Kirch-hoff's Laws. These 
  []
 
-[2] <Circuit_1.PNG, id=76, 491.58656pt x 357.58594pt>
+[2] <Circuit_1.PNG, id=77, 491.58656pt x 357.58594pt>
 File: Circuit_1.PNG Graphic file (type png)
  <use Circuit_1.PNG>
-Package pdftex.def Info: Circuit_1.PNG used on input line 212.
+Package pdftex.def Info: Circuit_1.PNG used on input line 213.
 (pdftex.def)             Requested size: 289.07999pt x 210.28636pt.
 
-[3 <./Circuit_1.PNG>] <Circuit_2.PNG, id=85, 508.90125pt x 352.31625pt>
+[3 <./Circuit_1.PNG>] <Circuit_2.PNG, id=86, 508.90125pt x 352.31625pt>
 File: Circuit_2.PNG Graphic file (type png)
 
 <use Circuit_2.PNG>
-Package pdftex.def Info: Circuit_2.PNG used on input line 221.
+Package pdftex.def Info: Circuit_2.PNG used on input line 222.
 (pdftex.def)             Requested size: 289.07999pt x 200.1396pt.
- <Circuit_3.PNG, id=86, 537.50812pt x 344.03531pt>
+ <Circuit_3.PNG, id=87, 537.50812pt x 344.03531pt>
 File: Circuit_3.PNG Graphic file (type png)
 
 <use Circuit_3.PNG>
-Package pdftex.def Info: Circuit_3.PNG used on input line 228.
+Package pdftex.def Info: Circuit_3.PNG used on input line 229.
 (pdftex.def)             Requested size: 289.07999pt x 185.0256pt.
  [4 <./Circuit_2.PNG> <./Circuit_3.PNG>]
-<Circuit_4.PNG, id=93, 523.9575pt x 341.02406pt>
+<Circuit_4.PNG, id=94, 523.9575pt x 341.02406pt>
 File: Circuit_4.PNG Graphic file (type png)
  <use Circuit_4.PNG>
-Package pdftex.def Info: Circuit_4.PNG used on input line 237.
+Package pdftex.def Info: Circuit_4.PNG used on input line 238.
 (pdftex.def)             Requested size: 289.07999pt x 188.15701pt.
 
-<Circuit_1_real.jpg, id=94, 4143.48pt x 2330.7075pt>
+<Circuit_1_real.jpg, id=95, 4143.48pt x 2330.7075pt>
 File: Circuit_1_real.jpg Graphic file (type jpg)
  <use Circuit_1_real.jpg>
-Package pdftex.def Info: Circuit_1_real.jpg used on input line 245.
+Package pdftex.def Info: Circuit_1_real.jpg used on input line 246.
 (pdftex.def)             Requested size: 289.07999pt x 162.59717pt.
 
 [5 <./Circuit_4.PNG> <./Circuit_1_real.jpg>]
-<Circuit_2_real.jpg, id=100, 4143.48pt x 2330.7075pt>
+<Circuit_2_real.jpg, id=101, 4143.48pt x 2330.7075pt>
 File: Circuit_2_real.jpg Graphic file (type jpg)
  <use Circuit_2_real.jpg>
-Package pdftex.def Info: Circuit_2_real.jpg used on input line 254.
+Package pdftex.def Info: Circuit_2_real.jpg used on input line 255.
 (pdftex.def)             Requested size: 252.94499pt x 142.25475pt.
 
-<Circuit_3_real.jpg, id=101, 4143.48pt x 2330.7075pt>
+<Circuit_3_real.jpg, id=102, 4143.48pt x 2330.7075pt>
 File: Circuit_3_real.jpg Graphic file (type jpg)
  <use Circuit_3_real.jpg>
-Package pdftex.def Info: Circuit_3_real.jpg used on input line 261.
+Package pdftex.def Info: Circuit_3_real.jpg used on input line 262.
 (pdftex.def)             Requested size: 252.94499pt x 142.25475pt.
 
 [6 <./Circuit_2_real.jpg> <./Circuit_3_real.jpg>]
-<Multisim_calculations.pdf, id=107, 613.29124pt x 843.15pt>
+<Multisim_calculations.pdf, id=108, 613.29124pt x 843.15pt>
 File: Multisim_calculations.pdf Graphic file (type pdf)
 
 <use Multisim_calculations.pdf>
-Package pdftex.def Info: Multisim_calculations.pdf used on input line 270.
+Package pdftex.def Info: Multisim_calculations.pdf used on input line 271.
 (pdftex.def)             Requested size: 433.62pt x 596.14479pt.
  [7 <./Multisim_calculations.pdf>]
-<calculations_real.pdf, id=120, 614.295pt x 794.97pt>
+<calculations_real.pdf, id=121, 614.295pt x 794.97pt>
 File: calculations_real.pdf Graphic file (type pdf)
 
 <use calculations_real.pdf>
-Package pdftex.def Info: calculations_real.pdf used on input line 279.
+Package pdftex.def Info: calculations_real.pdf used on input line 280.
 (pdftex.def)             Requested size: 433.62pt x 561.15749pt.
  [8 <./calculations_real.pdf>]
 
-LaTeX Warning: Empty `thebibliography' environment on input line 302.
+LaTeX Warning: Empty `thebibliography' environment on input line 303.
 
 [9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 316.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 316.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 317.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 317.
  (./Lab 1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 316.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 316.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 317.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 317.
 Package rerunfilecheck Info: File `"Lab 1".out' has not changed.
-(rerunfilecheck)             Checksum: 0D62ED5421EFC83F5E71970FD1A3819C;255.
+(rerunfilecheck)             Checksum: F8E60AA1AFBDA551C838504CC126937E;247.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1113,7 +1113,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  21727 strings out of 493089
- 390757 string characters out of 6134842
+ 390749 string characters out of 6134842
  485396 words of memory out of 5000000
  24716 multiletter control sequences out of 15000+600000
  29709 words of font info for 58 fonts, out of 8000000 for 9000
@@ -1129,7 +1129,7 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 /texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dis
 t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/times/utmri8a.pfb>
-Output written on "Lab 1.pdf" (10 pages, 10141435 bytes).
+Output written on "Lab 1.pdf" (10 pages, 10141567 bytes).
 PDF statistics:
  173 PDF objects out of 1000 (max. 8388607)
  133 compressed objects within 2 object streams
