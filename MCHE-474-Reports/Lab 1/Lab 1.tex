@@ -154,10 +154,10 @@ This lab was conducted by utilizing MATLAB, specifically the Simulink package, i
 
 \section*{\fontsize{12}{12}\selectfont \large Theory}
 \addcontentsline{toc}{section}{Theory} % Add for each section
-Signals in control systems are manipulated by various means. Passing a signal through a gain simply increases, or decreases, a signal strength, which is quite useful. Signals can also go through feedback loops. Feedback loops can make the system more robust. For example, passing a signal to an actuator without any sensing cannot provide any feedback as to what the outcome is. This is detrimental if the actuator is not receiving enough power in order to carry out its desired task, or if the actuator has reached a goal position and needs to stop. Having sensors gives the system feedback which can ensure the system performs as intended. Feedback loops can be negative or positive depending on the desired function of the loop. 
+Signals in control systems are manipulated by various means. Passing a signal through a gain simply increases or decreases a signal strength, which is quite useful. Signals can also go through feedback loops. Feedback loops can make the system more robust. For example, passing a signal to an actuator without any sensing cannot provide any feedback as to what the outcome is. This is detrimental if the actuator is not receiving enough power in order to carry out its desired task, or if the actuator has reached a desired state and needs to stop. Having sensors gives the system feedback which can ensure the system performs as intended. Feedback loops can be negative or positive depending on the desired function of the loop. 
 \bigskip
 
-Signals are also commonly passed through transfer functions. A transfer function compares the output to the input of a linear system, time-variant systems. Transfer functions are in the frequency domain, which correlates to the Laplace domain. The time domain expression of the output is typically of interest in control systems, and using the transfer function of a system can help to obtain the time-response of the system. The general form of a transfer function for a system with input $R(s)$ and output $Y(s)$ is shown in Equations 1 and 2 as follows,
+Signals are also commonly passed through transfer functions. A transfer function compares the output to the input of a linear, time-variant systems. Transfer functions are typically in the frequency domain, which correlates to the Laplace domain. The time domain expression of the output is typically of interest in control systems, and using the transfer function of a system can help to obtain the time-response of the system. The general form of a transfer function for a system with input $R(s)$ and output $Y(s)$ is shown in Equations 1 and 2 as follows,
 \bigskip
 
 \begin{equation}
@@ -174,7 +174,7 @@ where $L$ is the Laplace transform operator and the time domain representations 
 Systems can also be described by their status as either stable or unstable. A stable system eventually approaches and tends to stay at some constant settling value known as a steady state value, as shown in Figure 2, until some external disturbance acts on it. Once that external disturbance is removed, the system returns to the steady state value. Unstable systems will not settle on their own and will continue to change even when there are no external disturbances acting on the system.
 \bigskip
 
-Systems also have other characteristics, such as overshoot. Overshoot is when the system output exceeds the steady state value, and can be seen in Figure 2 when the system output exceeds the step input at first. The overshoot is often described as a percentage, which can be calculated with Equation 3 as follows:
+Systems also have other characteristics, such as overshoot. Overshoot is when the system output exceeds the steady state value, and can be seen in Figure 2 when the system output exceeds the step input at first. The overshoot is often expressed as a percentage, which can be calculated with Equation 3 as follows:
 \bigskip
 
 \begin{equation}
@@ -182,7 +182,7 @@ O.S. = \frac{Max Value - Steady State Value}{Steady State Value}*100
 \end{equation}
 \bigskip
 
-Systems can also be described by rise time, which is defined as the time taken to rise from a low value state to a higher value state, and helps describe a system's ability to respond to sudden inputs. A system also has a characteristic settling time which is the time taken for the system to reach a state that lies within a specified range of error after responding to a step input. The system depicted in Figure 2 can be seen to reach a state which lies within a specified range of error after some time, for example.
+Systems can also be described by rise time, which is defined as the time taken to rise from a low value state to a higher value state, and helps describe a system's ability to respond to sudden inputs. A system also has a characteristic settling time which is the time taken for the system to reach a state that lies within a specified range of error about the settling value after responding to a step input. The system depicted in Figure 2 can be seen to reach a state which lies within a specified range of error after some time, for example.
 \bigskip
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  22 FEB 2016 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  23 FEB 2016 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1063,12 +1063,6 @@ Overfull \hbox (0.83041pt too wide) in paragraph at lines 185--187
 that lies within a spec- 
  []
 
-
-Overfull \hbox (3.42406pt too wide) in paragraph at lines 185--187
-\OT1/ptm/m/n/14.4 i-fied range of error after responding to a step input. The s
-ystem depicted in Figure 
- []
-
 <stable_system.JPG, id=75, 2085.7925pt x 1001.7425pt>
 File: stable_system.JPG Graphic file (type jpg)
  <use stable_system.JPG>
@@ -1171,7 +1165,7 @@ e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
 /2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texm
 f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
 ts/type1/urw/times/utmri8a.pfb>
-Output written on "Lab 1.pdf" (10 pages, 521372 bytes).
+Output written on "Lab 1.pdf" (10 pages, 521385 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  115 compressed objects within 2 object streams
