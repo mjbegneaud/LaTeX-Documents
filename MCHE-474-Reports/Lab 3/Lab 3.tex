@@ -26,7 +26,7 @@
 \bibliographystyle{IEEEtran}
 \DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
 
-\title{MCHE 474: Lab 1}
+\title{MCHE 474: Lab 3}
 
 \begin{document}
 \lefthyphenmin3
@@ -118,6 +118,11 @@
 
 \section*{\fontsize{12}{12}\selectfont \large List of Symbols}
 \addcontentsline{toc}{section}{List of Symbols} % Add for each section
+T = Transfer Function
+s = Frequency domain independent variable
+$\dot{x}$ = Input state-space equation
+$\dot{y}$ = Output state-space equation
+
 
 
 \newpage
@@ -129,25 +134,115 @@
 
 \section*{\fontsize{12}{12}\selectfont \large Introduction}
 \addcontentsline{toc}{section}{Introduction} % Add for each section
+This lab was conducted using MATLAB and Simulink in order to analyze control systems. The transfer function for the system analyzed in this lab is given, and is shown in Equation 1. The main aspects of the system analyzed in this lab are the state-space equations and the system step response. 
 
-
+\begin{equation}
+T = \frac{s^2+5}{2s^3+3s^2+9s+24}
+\end{equation}
 
 
 \section*{\fontsize{12}{12}\selectfont \large Theory}
 \addcontentsline{toc}{section}{Theory} % Add for each section
+The goal of using state-space equations to describe a system is to replace a high order differential equation with a single first order matrix differential equation. A system is represented in state-space form by using two equations, as seen in Equations 2 and 3, where Equation 2 is the input equation, and Equation 3 is the output equation.
+\bigskip
+
+\begin{equation}
+\dot{x} = Ax + BU
+\end{equation}
+
+\bigskip
+
+\begin{equation}
+\dot{y} = Cx + DU
+\end{equation}
+
+\bigskip
+
+In the above equations A, B, C , and D are all coefficients in the form of matrices. The terms $\dot(x)$ and $\dot(y)$, as well as x, are singular matrices of a size dependent on the highest order of the space-state equations. Also, a system can be defined as stable or unstable. A stable system tends to settle towards a constant value after being exposed to a step input. An unstable system, however, tends to never settle near a constant value after responding to a step input. An example of a stable system can be seen in Figure 1.
+\bigskip
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=4.5in]{stable_system.jpg} 
+   \caption{Example of a Stable System}
+   \label{fig:example}
+\end{figure}
 
 
-
+\newpage
 
 \section*{\fontsize{12}{12}\selectfont \large Procedure \& Analysis}
 \addcontentsline{toc}{section}{Procedure \& Analysis} % Add for each section
+First, the signal flow graph was sketched using the Phase Variable Method and the state-space equations were written, as shown in Figure 2. The system was then analyzed in MATLAB to obtain the state-space equations, shown in Figure 3, and the results were compared to the equations found by hand in Figure 2. The step response of the system was then obtained, and is shown in Figure 3 along with the response information shown in Figure 4. As seen in Figure 3, the system tends to oscillate around a central value with increasing amplitude; therefore, the system does not approach any constant value as times goes on and is therefore unstable. Figure 4 also shows that the system is unstable because the peak and peak time are infinity, yielding no definitive overshoot, rise time, settling time, or settling value.
+\bigskip
 
+The system was then modeled in Simulink, as shown in Figure 5. The step response was obtained from the model and is shown in Figure 6. Note that the only difference between the responses in Figure 3 and Figure 6 is that the step input is not initiated at the same time. 
+\bigskip
+\bigskip
 
+% Figures here
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=\linewidth]{handwritten_calculations.jpeg} 
+   \caption{State-Space Equations by Hand}
+   \label{fig:example}
+\end{figure}
+
+\newpage
+
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=2in]{coefficient_matrices.PNG} 
+   \caption{State-Space Equations using MATLAB}
+   \label{fig:example}
+\end{figure}
+
+\bigskip
+
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=6in]{matlab_script_time_response.jpg} 
+   \caption{System Time Response (MATLAB)}
+   \label{fig:example}
+\end{figure}
+
+\newpage
+
+\bigskip
+\bigskip
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=2.5in]{step_response_info.PNG} 
+   \caption{System Step Response Information}
+   \label{fig:example}
+\end{figure}
+
+\bigskip
+\bigskip
+
+\begin{figure}[h!] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=\linewidth]{simulink_model_pic.PNG} 
+   \caption{Simulink Model}
+   \label{fig:example}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp] %  figure placement: here, top, bottom, or page
+   \centering
+   \includegraphics[width=6in]{simulink_model_time_response.jpg} 
+   \caption{System Time Response (Simulink)}
+   \label{fig:example}
+\end{figure}
+
+\bigskip
 
 
 \section*{\fontsize{12}{12}\selectfont \large Conclusion}
 \addcontentsline{toc}{section}{Conclusion} % Add for each section
-
+The exercises conducted in this lab reinforce the theory learned in the classroom. It is shown that systems can be analyzed in the time domain, which is better than analyzing a system in the frequency domain for complex systems. Obtaining the state-space equations and modeling of a system is very important in the field of controls; therefore, this experience with state-space representations of linear control system is very beneficial.
 
 
 
