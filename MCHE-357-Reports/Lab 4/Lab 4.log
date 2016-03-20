@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  14 MAR 2016 19:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  20 MAR 2016 11:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Lab 3.tex"
-(./Lab 3.tex
+**"Lab 4.tex"
+(./Lab 4.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -865,13 +865,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip85
 )
-(./Lab 3.aux
-
-LaTeX Warning: Label `fig:example' multiply defined.
-
-
-LaTeX Warning: Label `fig:example' multiply defined.
-
+(./Lab 4.aux
 
 LaTeX Warning: Label `fig:example' multiply defined.
 
@@ -885,23 +879,23 @@ LaTeX Warning: Label `fig:example' multiply defined.
 LaTeX Warning: Label `fig:example' multiply defined.
 
 )
-\openout1 = `"Lab 3.aux"'.
+\openout1 = `"Lab 4.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 31.
-LaTeX Font Info:    ... okay on input line 31.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 31.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
@@ -960,11 +954,11 @@ File: ucsencs.def 2011/01/21 Fixes to fontencodings LGR, T3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package ragged2e Info: ABD: executing \RaggedRight on input line 31.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 32.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 31.
+LaTeX Info: Redefining \selectfont on input line 32.
 \AtBeginShipoutBox=\box49
-Package hyperref Info: Link coloring ON on input line 31.
+Package hyperref Info: Link coloring ON on input line 32.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -974,22 +968,22 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count166
 )
-LaTeX Info: Redefining \ref on input line 31.
-LaTeX Info: Redefining \pageref on input line 31.
-LaTeX Info: Redefining \nameref on input line 31.
+LaTeX Info: Redefining \ref on input line 32.
+LaTeX Info: Redefining \pageref on input line 32.
+LaTeX Info: Redefining \nameref on input line 32.
 
-(./Lab 3.out) (./Lab 3.out)
+(./Lab 4.out) (./Lab 4.out)
 \@outlinefile=\write4
-\openout4 = `"Lab 3.out"'.
+\openout4 = `"Lab 4.out"'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 68.
-LaTeX Font Info:    Try loading font information for U+msa on input line 80.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
+LaTeX Font Info:    Try loading font information for U+msa on input line 81.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 80.
+LaTeX Font Info:    Try loading font information for U+msb on input line 81.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -997,124 +991,108 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <UL_logo.jpg, id=27, 481.8pt x 321.2pt>
 File: UL_logo.jpg Graphic file (type jpg)
  <use UL_logo.jpg>
-Package pdftex.def Info: UL_logo.jpg used on input line 103.
+Package pdftex.def Info: UL_logo.jpg used on input line 115.
 (pdftex.def)             Requested size: 361.34999pt x 240.90431pt.
  [1
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./UL_lo
 go.jpg>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 115.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 127.
 
-(./Lab 3.toc
+(./Lab 4.toc
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
 )
 \tf@toc=\write5
-\openout5 = `"Lab 3.toc"'.
+\openout5 = `"Lab 4.toc"'.
 
- (./Lab 3.lof)
+ (./Lab 4.lof)
 \tf@lof=\write6
-\openout6 = `"Lab 3.lof"'.
+\openout6 = `"Lab 4.lof"'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 119.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 134.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.128 \newpage
-               [1] <stable_system.jpg, id=62, 2085.7925pt x 1001.7425pt>
-File: stable_system.jpg Graphic file (type jpg)
+l.143 \newpage
+               [1] [2] <lab_4a.PNG, id=67, 660.96938pt x 408.77719pt>
+File: lab_4a.PNG Graphic file (type png)
 
-<use stable_system.jpg>
-Package pdftex.def Info: stable_system.jpg used on input line 166.
-(pdftex.def)             Requested size: 325.215pt x 156.1856pt.
- [2 <./stable_system.jpg>]
-Overfull \hbox (5.96848pt too wide) in paragraph at lines 176--178
-\OT1/ptm/m/n/12 in Figure 4 along with the response infor-ma-tion shown in Figu
-re 5. As seen in Figure 4, the system 
+<use lab_4a.PNG>
+Package pdftex.def Info: lab_4a.PNG used on input line 181.
+(pdftex.def)             Requested size: 469.75502pt x 290.53322pt.
+ <lab_4a_grid.PNG, id=69, 564.60938pt x 331.2375pt>
+File: lab_4a_grid.PNG Graphic file (type png)
+
+<use lab_4a_grid.PNG>
+Package pdftex.def Info: lab_4a_grid.PNG used on input line 190.
+(pdftex.def)             Requested size: 397.48499pt x 233.19392pt.
+ [3 <./lab_4a.PNG> <./lab_4a_grid.PNG>]
+<lab_4b.PNG, id=76, 578.16pt x 377.91188pt>
+File: lab_4b.PNG Graphic file (type png)
+ <use lab_4b.PNG>
+Package pdftex.def Info: lab_4b.PNG used on input line 206.
+(pdftex.def)             Requested size: 469.75502pt x 307.05264pt.
+ [4 <./lab_4b.PNG>] <lab_4b_1st_order.PNG, id=82, 693.34032pt x 408.77719pt>
+File: lab_4b_1st_order.PNG Graphic file (type png)
+
+<use lab_4b_1st_order.PNG>
+Package pdftex.def Info: lab_4b_1st_order.PNG used on input line 215.
+(pdftex.def)             Requested size: 433.62pt x 255.65976pt.
+
+<lab_4b_3rd_order.PNG, id=83, 728.7225pt x 413.29407pt>
+File: lab_4b_3rd_order.PNG Graphic file (type png)
+
+<use lab_4b_3rd_order.PNG>
+Package pdftex.def Info: lab_4b_3rd_order.PNG used on input line 222.
+(pdftex.def)             Requested size: 433.62pt x 245.92247pt.
+ [5 <./lab_4b_1st_order.PNG> <./lab_4b_3rd_order.PNG>]
+Overfull \hbox (9.4607pt too wide) in paragraph at lines 262--263
+\OT1/ptm/m/n/12 The exer-cises con-ducted in this lab served a learning exer-ci
+se for Lab View. It is useful for mechan- 
  []
 
-<handwritten_calculations.jpeg, id=71, 524.96124pt x 357.335pt>
-File: handwritten_calculations.jpeg Graphic file (type jpg)
 
-<use handwritten_calculations.jpeg>
-Package pdftex.def Info: handwritten_calculations.jpeg used on input line 187.
-(pdftex.def)             Requested size: 469.75502pt x 319.76648pt.
- [3 <./handwritten_calculations.jpeg>]
-<coefficient_matrices.PNG, id=76, 196.48407pt x 307.1475pt>
-File: coefficient_matrices.PNG Graphic file (type png)
+LaTeX Warning: Empty `thebibliography' environment on input line 274.
 
-<use coefficient_matrices.PNG>
-Package pdftex.def Info: coefficient_matrices.PNG used on input line 196.
-(pdftex.def)             Requested size: 144.54pt x 225.96394pt.
-
-<matlab_script_time_response.jpg, id=78, 562.1pt x 421.575pt>
-File: matlab_script_time_response.jpg Graphic file (type jpg)
-
-<use matlab_script_time_response.jpg>
-Package pdftex.def Info: matlab_script_time_response.jpg used on input line 205
-.
-(pdftex.def)             Requested size: 433.62pt x 325.21199pt.
- [4 <./coefficient_matrices.PNG> <./matlab_script_time_response.jpg>]
-<step_response_info.PNG, id=84, 145.29282pt x 139.27031pt>
-File: step_response_info.PNG Graphic file (type png)
-
-<use step_response_info.PNG>
-Package pdftex.def Info: step_response_info.PNG used on input line 216.
-(pdftex.def)             Requested size: 180.67499pt x 173.19916pt.
-
-<simulink_model_pic.PNG, id=85, 1052.43187pt x 401.24907pt>
-File: simulink_model_pic.PNG Graphic file (type png)
-
-<use simulink_model_pic.PNG>
-Package pdftex.def Info: simulink_model_pic.PNG used on input line 226.
-(pdftex.def)             Requested size: 469.75502pt x 179.0971pt.
- [5 <./step_response_info.PNG> <./simulink_model_pic.PNG>] <simulink_model_time
-_response.jpg, id=92, 562.1pt x 421.575pt>
-File: simulink_model_time_response.jpg Graphic file (type jpg)
-
-<use simulink_model_time_response.jpg>
-Package pdftex.def Info: simulink_model_time_response.jpg used on input line 23
-5.
-(pdftex.def)             Requested size: 433.62pt x 325.21199pt.
-
-
-LaTeX Warning: Empty `thebibliography' environment on input line 259.
-
-[6 <./simulink_model_time_response.jpg>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
- (./Lab 3.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
-Package rerunfilecheck Info: File `"Lab 3".out' has not changed.
-(rerunfilecheck)             Checksum: F2A474423270F98F8AB424334860C0C0;247.
+[6]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 288.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 288.
+ (./Lab 4.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 288.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 288.
+Package rerunfilecheck Info: File `"Lab 4".out' has not changed.
+(rerunfilecheck)             Checksum: C858D21AD0A4D95721522B1542DC9F4F;247.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21710 strings out of 493089
- 390758 string characters out of 6134842
- 484398 words of memory out of 5000000
- 24708 multiletter control sequences out of 15000+600000
+ 21795 strings out of 493089
+ 390948 string characters out of 6134842
+ 493646 words of memory out of 5000000
+ 24800 multiletter control sequences out of 15000+600000
  28631 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,6n,92p,819b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 103i,6n,103p,793b,416s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texm
-f-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fon
-ts/type1/urw/times/utmri8a.pfb>
-Output written on "Lab 3.pdf" (7 pages, 300639 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dis
+t/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/urw/times/utmri8a.pfb>
+Output written on "Lab 4.pdf" (7 pages, 195173 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 24 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 134 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
