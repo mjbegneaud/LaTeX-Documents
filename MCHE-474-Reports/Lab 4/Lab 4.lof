@@ -1,0 +1,17 @@
+\select@language {english}
+\contentsline {figure}{\numberline {1}{\ignorespaces Varying $KP$ System Response\relax }}{3}{figure.caption.7}
+\contentsline {figure}{\numberline {2}{\ignorespaces $KP = 1$, $KI = KD = 0$\relax }}{3}{figure.caption.8}
+\contentsline {figure}{\numberline {3}{\ignorespaces $KP = 2$, $KI = KD = 0$\relax }}{4}{figure.caption.9}
+\contentsline {figure}{\numberline {4}{\ignorespaces $KP = 10$, $KI = KD = 0$\relax }}{4}{figure.caption.10}
+\contentsline {figure}{\numberline {5}{\ignorespaces Varying $KI$ System Response\relax }}{5}{figure.caption.11}
+\contentsline {figure}{\numberline {6}{\ignorespaces $KP = 1$, $KI = 0$, $KD = 0$\relax }}{5}{figure.caption.12}
+\contentsline {figure}{\numberline {7}{\ignorespaces $KP = 1$, $KI = 10$, $KD = 0$\relax }}{6}{figure.caption.13}
+\contentsline {figure}{\numberline {8}{\ignorespaces $KP = 1$, $KI = 30$, $KD = 0$\relax }}{6}{figure.caption.14}
+\contentsline {figure}{\numberline {9}{\ignorespaces Varying $KD$ System Response\relax }}{7}{figure.caption.15}
+\contentsline {figure}{\numberline {10}{\ignorespaces $KP = 1$, $KI = 30$, $KD = 0$\relax }}{7}{figure.caption.16}
+\contentsline {figure}{\numberline {11}{\ignorespaces $KP = 1$, $KI = 30$, $KD = 2$\relax }}{8}{figure.caption.17}
+\contentsline {figure}{\numberline {12}{\ignorespaces $KP = 1$, $KI = 30$, $KD = 10$\relax }}{8}{figure.caption.18}
+\contentsline {figure}{\numberline {13}{\ignorespaces Sequential Addition of Components to Controller System Response\relax }}{9}{figure.caption.19}
+\contentsline {figure}{\numberline {14}{\ignorespaces $KP = 1$, $KI = 30$, $KD = 0$\relax }}{9}{figure.caption.20}
+\contentsline {figure}{\numberline {15}{\ignorespaces $KP = 1$, $KI = 30$, $KD = 2$\relax }}{10}{figure.caption.21}
+\contentsline {figure}{\numberline {16}{\ignorespaces $KP = 1$, $KI = 30$, $KD = 10$\relax }}{10}{figure.caption.22}
