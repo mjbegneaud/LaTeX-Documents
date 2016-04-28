@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  24 APR 2016 19:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  27 APR 2016 20:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1091,7 +1091,7 @@ Here is how much of TeX's memory you used:
 exlive/2015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Lab 9.pdf" (6 pages, 5870706 bytes).
+Output written on "Lab 9.pdf" (6 pages, 6006310 bytes).
 PDF statistics:
  95 PDF objects out of 1000 (max. 8388607)
  77 compressed objects within 1 object stream
