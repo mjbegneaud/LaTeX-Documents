@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 MAR 2017 10:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  11 MAR 2017 10:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"Lab 1.tex"
-(./Lab 1.tex
+**"Lab 3.tex"
+(./Lab 3.tex
 LaTeX2e <2015/01/01>
 Babel <3.9l> and hyphenation patterns for 79 languages loaded.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/article.cls
@@ -864,12 +864,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip85
 )
-(./Lab 1.aux
-
-LaTeX Warning: Label `fig:example' multiply defined.
-
-)
-\openout1 = `"Lab 1.aux"'.
+No file "Lab 3".aux.
+\openout1 = `"Lab 3.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -886,7 +882,7 @@ LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 32.
- (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/ucs/ucsencs.def
@@ -961,15 +957,18 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 32.
 LaTeX Info: Redefining \pageref on input line 32.
 LaTeX Info: Redefining \nameref on input line 32.
-
-(./Lab 1.out) (./Lab 1.out)
 \@outlinefile=\write4
-\openout4 = `"Lab 1.out"'.
+\openout4 = `"Lab 3.out"'.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 71.
+
+
+LaTeX Warning: Citation `rubberband_writeup' on page 1 undefined on input line 
+75.
+
 
 Overfull \hbox (16.35994pt too wide) in paragraph at lines 79--80
 \OT1/ptm/m/n/12 bands were then stretched to var-ious dis-place-ments and the r
@@ -985,7 +984,7 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 86.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<power_regression.pdf, id=8, 794.97pt x 614.295pt>
+<power_regression.pdf, id=7, 794.97pt x 614.295pt>
 File: power_regression.pdf Graphic file (type pdf)
  <use power_regression.pdf>
 Package pdftex.def Info: power_regression.pdf used on input line 93.
@@ -1006,7 +1005,7 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2 <./power_regression.pdf>] <elastic_energy.pdf, id=44, 794.97pt x 614.295pt>
+[2 <./power_regression.pdf>] <elastic_energy.pdf, id=42, 794.97pt x 614.295pt>
 File: elastic_energy.pdf Graphic file (type pdf)
 
 <use elastic_energy.pdf>
@@ -1041,20 +1040,29 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 [4]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 166.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 166.
- (./Lab 1.aux)
+ (./Lab 3.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 166.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 166.
-Package rerunfilecheck Info: File `"Lab 1".out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `"Lab 3".out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `"Lab 3".out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 21653 strings out of 493089
- 389782 string characters out of 6134842
- 486435 words of memory out of 5000000
+ 21647 strings out of 493089
+ 389722 string characters out of 6134842
+ 486169 words of memory out of 5000000
  24682 multiletter control sequences out of 15000+600000
  13536 words of font info for 40 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1068,10 +1076,10 @@ ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive
 15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
 5/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-di
 st/fonts/type1/urw/times/utmr8a.pfb>
-Output written on "Lab 1.pdf" (4 pages, 707969 bytes).
+Output written on "Lab 3.pdf" (4 pages, 708116 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 79 compressed objects within 1 object stream
+ 99 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  17 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 
