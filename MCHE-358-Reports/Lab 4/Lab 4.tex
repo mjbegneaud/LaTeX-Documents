@@ -69,18 +69,18 @@
 %-------------------------------------------------------------
 
 \section*{\fontsize{12}{12}\selectfont INTRODUCTION}
-This memorandum is meant to convey the findings of an experiment conducted to observe the effects that depth and separation distance of electrodes have on the resistance of a fluid solution. The objectives of this experiment are to:
+This memorandum conveys the findings of an experiment conducted to observe the effects that depth and separation distance of electrodes have on the resistance of a fluid solution. The objectives of this experiment are to:
 
 \begin{itemize}
 
-\item Measure the electrical current in an aqueous soluble salt solution caused by two electrodes, positioning the electrodes at various combinations of depth and separation distance
+\item Measure the electrical current in an aqueous soluble salt solution caused by two cylindrical electrodes, positioning the electrodes at various combinations of depth and separation distance
 \item Use Ohm's Law to calculate the resistance at each recorded configuration using the current recorded
 \item Develop a regression model to predict the resistance of the solution at given configurations
 
 \end{itemize}
 
 
-In this experiment, the electrode depth parameter is measured from the surface of the solution to the bottom of the electrode, and the separation parameter is the center-to-center distance between the two cylindrical electrodes. The resistance should somewhat closely resemble that of a solid in terms of parameter effects; as such, it is expected that the regression should be somewhat similar to that of solids \cite{physics_book}, seen in Equation (1) where $\rho$ is density, $L$ is length of the solid, and $A$ is the cross-sectional area normal to which the electrical current travels. The regression model proposed for the system is shown by Equation (2), where $S$ is separation distance, $d$ is depth, $R_o$ is the resting-state resistance of the system without the solution present. It is expected that the exponent $b1$ will be negative.
+The resistance should somewhat closely resemble that of a solid in terms of parameter effects. As such, it is expected that the regression should be somewhat similar to that of solids \cite{physics_book}, seen in Equation (1) where $\rho$ is density, $L$ is length of the solid, and $A$ is the cross-sectional area normal to which the electrical current travels. It is expected, for the fluid solution, that an increased distance will increase the resistance since there is more material between the electrodes, and that an increase in electrode depth will lower the resistance since there is effectively more cross-sectional area which allows the electric current to travel with more ease. The regression model proposed for the system is shown by Equation (2), where $S$ is separation distance, $d$ is depth, $R_o$ is the resting-state resistance of the system without the solution present. In accordance with the preceding statements, it is expected that the exponent $b1$ will be negative.
 \bigskip
 
 \begin{equation}
@@ -97,19 +97,19 @@ R-R_o = ad^{b_1}S^{b_2}
 \begin{figure}[t!] %  figure placement: here, top, bottom, or page
    \centering
    \includegraphics[width=4in]{system_diagram.pdf} 
-   \caption{System Diagram}
+   \caption{Experiment System Diagram}
    \label{fig:example}
 \end{figure}
 
 \section*{\fontsize{12}{12}\selectfont PROCEDURE}
-The system diagram is shown in Figure 1. The system consists of a voltage source, two cylindrical electrodes, a fish-tank pump, and the $H_2O - NaHCO_3$ solution itself. A Latin-Squares matrix is chosen to build a database which equally represents the effects of both parameters on the resistance. 
+The experiment system diagram is shown in Figure 1. The system consists of a voltage source, two cylindrical electrodes, a fish-tank pump, and the $H_2O - NaHCO_3$ solution itself. A Latin-Squares matrix is chosen to build a database which equally represents the effects of both parameters on the resistance. In this experiment, the electrode depth parameter is measured from the surface of the solution to the bottom of the electrode, and the separation parameter is the center-to-center distance between the two cylindrical electrodes. 
 \bigskip
 
-As shown in Figure 1, an electric current is induced in the solution via the electrodes and is recorded by observation of a current indicator device. A fish-tank pump is used to keep a consistent flow of the solution which keeps the resistance uniform throughout the experiment. The recorded current is then used along with the recorded excitation voltage to calculate the equivalent resistance of the system.
+As shown in Figure 1, an electric current is induced in the solution via the electrodes and is recorded by observation of a current indicator device. A fish-tank pump is used to maintain a consistent flow of the solution which keeps the resistance uniform throughout the experiment. The recorded current is then used along with the recorded excitation voltage to calculate the equivalent resistance of the system.
 
 
 \section*{\fontsize{12}{12}\selectfont DATA PRESENTATION \& ANALYSIS}
-The raw data recorded during the experiment can be seen in Appendix A1. The calculated resistance data is also depicted in Figure 2 as a function of depth and separation distance, with depth on the abscissa and separation distance as a chosen parameter. The coefficients for the model proposed in Equation (2) have been calculated using Microsoft Excel, as shown in Equation (3). The regression model has been superimposed on the data plot in Figure 2 for the minimum, maximum, and one intermediate level of electrode separation.
+The data recorded during the experiment can be seen in Appendix A1. The calculated resistance data is also depicted in Figure 2 as a function of depth and separation distance, with depth on the abscissa and separation distance as a chosen parameter. Using Microsoft Excel, the coefficients for the model proposed in Equation (2) have been calculated, shown in Equation (3). The regression model has been superimposed on the data plot in Figure 2 for the minimum, maximum, and one intermediate level of electrode separation.
 \bigskip
 
 \begin{equation}
@@ -118,7 +118,7 @@ R-R_o = 105.5\frac{S^{0.25}}{d^{0.77}}
 
 \bigskip
 
-The correlation coefficient calculated for the model is $r_{xy}=1.02$. The f-statistic calculated is $f=136.7$, corresponding to a probability $P_r << 0.1\%.$
+The correlation coefficient calculated for the model is $r_{xy}=0.9905$. The f-statistic calculated is $f=233.35$, corresponding to a probability $P_r << 0.1\%.$
 
 
 
@@ -131,19 +131,20 @@ The correlation coefficient calculated for the model is $r_{xy}=1.02$. The f-sta
 \end{figure}
 
 \section*{\fontsize{12}{12}\selectfont DISCUSSION}
-It can be seen graphically that the regression matches the data well. The correlation coefficient, calculated to be $r_{xy}=1.02$, gives notice that the model may be "overfitted," however it can be seen that both parameters have a clear effect on the resistance of the system. As secondary feedback for the accuracy of the model, the f-statistic is calculated to be $f=136.7$, which implies that the $P_r$ is much less than 0.1\%. This means that there is a very low chance that either of the independent variables analyzed carries no relationship with the resistance of the system. In other words, the chances of the Null Hypothesis being true is almost zero, so the model can be considered to be accurate with consideration to the two parameters analyzed.
+It can be seen graphically in Figure 2 that the regression matches the data well. The correlation coefficient, calculated to be $r_{xy}=0.9905$, gives confidence that the regression model is sufficiently accurate. The calculated f-statistic, $f=233.35$, implies that the $P_r$ is much less than 0.1\%, meaning that there is a very low chance that either of the independent variables analyzed carries no relationship with the resistance of the system. In other words, the chances of the Null Hypothesis being true is almost zero, so the system can be considered to be well represented by the model with respect to the two parameters analyzed.
+\bigskip
+
+It can be seen from Figure 2 that the resistance increases as the electrode separation distance increases, which is similar to the effect of length on the resistance through a solid medium. The depth of the electrodes is seen to be inversely proportional to the resistance, which is similar to the effect of increased cross-sectional area on the resistance in a solid medium. This is because an increased electrode depth is analogous to adding more cross-sectional area between the two electrodes. In the preceding statements, it is clear that is an accurate assumption that the model for the resistance in the fluid would be similar to that of the resistance through a solid.
 
 \section*{\fontsize{12}{12}\selectfont CONCLUSION}
 
 \begin{itemize}
 
-\item It has been shown that the resistance of the aqueous soluble salt solution can be modeled by similar means as for a solid material.
+\item It has been shown that the resistance of the aqueous soluble salt solution can be modeled by similar means as for a solid material, depending largely on the distance the current must travel through the medium as well as the cross-sectional area through which it must travel.
 
-\item The proposed regression model accurately depicts the behavior of the system analyzed in this experiment, graphically, as shown in Figure 2.
+\item The proposed regression model accurately depicts the behavior of the system analyzed in this experiment, as seen in Figure 2 and by the calculated correlation coefficient $r_{xy}=0.9905$.
 
-\item The values in the model have been calculated and are shown in Equation (3).
-
-\item There is basically no chance, as indicated by the calculated f-statistic, that the Null Hypothesis is true for the proposed model.
+\item There is virtually no chance as indicated by the calculated f-statistic $f=233.35$ that the Null Hypothesis is true for the proposed model, as the probability that it is true is much less than 0.1\%
 
 \end{itemize}
 
